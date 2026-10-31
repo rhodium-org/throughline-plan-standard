@@ -1,0 +1,15 @@
+uid: EX-0004
+type: example
+status: proposed
+title: A plan whose order goes round in a circle
+text: conformance/circular holds two activities that each follow the other. tl check
+  reports grounding-cycle.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0022
+  type: verifies
+attrs:
+  origin: ai
+key: a086fc44-91f0-42ac-8aa8-396e5b327f22

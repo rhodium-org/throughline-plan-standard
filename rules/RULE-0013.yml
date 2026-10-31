@@ -1,0 +1,19 @@
+uid: RULE-0013
+type: rule
+status: proposed
+title: A activity's started
+text: 'A activity may record started: the day the work actually started. Its value
+  is a calendar date, YYYY-MM-DD. Not part of what a signature covers.'
+rationale: 'Declared in throughline.toml as [types.activity] attrs.started = {"type":
+  "date", "normative": false}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+- target: RULE-0007
+  type: derives_from
+attrs:
+  origin: ai
+key: 7462fa72-848a-40e4-aa44-59fe982ac862

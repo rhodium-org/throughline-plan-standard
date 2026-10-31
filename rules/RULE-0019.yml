@@ -1,0 +1,17 @@
+uid: RULE-0019
+type: rule
+status: proposed
+title: A deadline's set by
+text: 'A deadline records set_by: who or what sets the deadline: a contract, a regulator,
+  an event. Its value is text. Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.deadline] attrs.set_by = {"type":
+  "string", "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0005
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+attrs:
+  origin: ai
+key: 90aff8f6-fddb-43d3-ad4c-a52c7a533dbd

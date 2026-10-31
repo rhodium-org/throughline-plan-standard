@@ -1,0 +1,12 @@
+uid: CON-0001
+type: constraint
+status: proposed
+title: Nothing private is in the standard
+text: The standard is public. It names no client, person, project or internal system,
+  and holds no value only one of them uses.
+rationale: The repository is public by choice; anything one keeper needs is added
+  by that keeper's own graph.
+normative: true
+attrs:
+  origin: ai
+key: 23280277-3f61-4d0c-9808-4b5f92de81f6

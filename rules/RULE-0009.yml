@@ -1,0 +1,20 @@
+uid: RULE-0009
+type: rule
+status: proposed
+title: A activity's duration
+text: 'A activity records duration: how many working days the activity is expected
+  to take. Its value is a number. Required. Part of what a signature on the item
+  covers.'
+rationale: 'Declared in throughline.toml as [types.activity] attrs.duration = {"type":
+  "float", "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+- target: RULE-0006
+  type: derives_from
+attrs:
+  origin: ai
+key: 452529fd-6eed-4be5-bdcd-7c1111284631

@@ -1,0 +1,15 @@
+uid: NG-0005
+type: non_goal
+status: proposed
+title: No timing on links
+text: A link carries no duration, lag or lead. A lag or lead is a shift item placed
+  in the chain.
+rationale: A throughline link holds a type and a target only; an item is visible,
+  signable and checked like any other (operator, 30 October 2026).
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 6a22a6f8-1f74-448b-8b88-b8f95778c603

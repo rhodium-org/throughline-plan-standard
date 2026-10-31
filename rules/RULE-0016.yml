@@ -1,0 +1,19 @@
+uid: RULE-0016
+type: rule
+status: proposed
+title: A milestone's reached
+text: 'A milestone may record reached: the day the milestone was actually reached.
+  Its value is a calendar date, YYYY-MM-DD. Not part of what a signature covers.'
+rationale: 'Declared in throughline.toml as [types.milestone] attrs.reached = {"type":
+  "date", "normative": false}.'
+normative: true
+links:
+- target: RULE-0003
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+- target: RULE-0007
+  type: derives_from
+attrs:
+  origin: ai
+key: 64abaeff-997b-4e5b-84c8-de14640ed1dd

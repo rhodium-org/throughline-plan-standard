@@ -1,0 +1,17 @@
+uid: RULE-0030
+type: rule
+status: proposed
+title: A plan pins an edition of the standard
+text: A plan names the standard as its schema source at a tagged edition, never at
+  a branch, so that a new edition reaches it only when it moves its pin.
+rationale: A branch would carry every change, breaking ones included, to every follower
+  at once.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+- target: CON-0002
+  type: derives_from
+attrs:
+  origin: ai
+key: 88edbc21-21c3-4b99-96a8-d6d8b34ff298

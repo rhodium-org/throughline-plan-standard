@@ -1,0 +1,15 @@
+uid: RULE-0005
+type: rule
+status: proposed
+title: A deadline is a kind of item a plan holds
+text: A deadline is a date a plan must meet, set from outside the plan, and who or
+  what sets it. A milestone meets it. A deadline may stand on its own, and one that
+  nothing meets is a finding.
+rationale: Declared in throughline.toml as [types.deadline].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 11bcdabd-1e24-4167-9067-eae890668854

@@ -1,0 +1,18 @@
+uid: RULE-0018
+type: rule
+status: proposed
+title: A deadline's date
+text: 'A deadline records date: the day by which the milestones that meet it must
+  be reached. Its value is a calendar date, YYYY-MM-DD. Required. Part of what a
+  signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.deadline] attrs.date = {"type":
+  "date", "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0005
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+attrs:
+  origin: ai
+key: 8ac2d82e-697b-40cc-908e-05146e43c461

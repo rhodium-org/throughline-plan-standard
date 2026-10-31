@@ -1,0 +1,14 @@
+uid: NG-0003
+type: non_goal
+status: proposed
+title: No drawing
+text: The standard holds no colours, scales, rows, bars, lanes or any other way a
+  plan looks.
+rationale: Belongs to the viewer.
+normative: false
+links:
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 8a93d2f5-d94e-423f-bf22-3732ac811e0b

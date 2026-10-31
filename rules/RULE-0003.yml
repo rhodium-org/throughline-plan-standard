@@ -1,0 +1,15 @@
+uid: RULE-0003
+type: rule
+status: proposed
+title: A milestone is a kind of item a plan holds
+text: 'A milestone is a moment in the plan that takes no time: a point reached, or
+  the start or finish of an activity named so that other items can follow it. It
+  is part of the plan or of an activity.'
+rationale: Declared in throughline.toml as [types.milestone].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: d6892d2c-87ea-4daf-8128-764fca7b2e05

@@ -1,0 +1,14 @@
+uid: NG-0004
+type: non_goal
+status: proposed
+title: No worked-out figures
+text: The standard holds no early or late dates, slack, critical path or span of
+  an activity with parts.
+rationale: Whoever reads the plan works them out.
+normative: false
+links:
+- target: CON-0005
+  type: derives_from
+attrs:
+  origin: ai
+key: 45dc6773-7aba-4e3e-96a6-9c317eff4a56

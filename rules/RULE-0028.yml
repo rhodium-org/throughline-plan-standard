@@ -1,0 +1,15 @@
+uid: RULE-0028
+type: rule
+status: proposed
+title: Every activity and milestone is part of something
+text: Every activity and milestone is part of the plan or of an activity, so following
+  another item is never the only thing placing it in the plan.
+rationale: 'Declared in throughline.toml as a coverage rule on type in (''activity'',
+  ''milestone''): needs = ''outgoing:part_of'', severity error.'
+normative: true
+links:
+- target: RULE-0023
+  type: derives_from
+attrs:
+  origin: ai
+key: 5775ff27-a945-4eaa-b27f-30a37c00a58d

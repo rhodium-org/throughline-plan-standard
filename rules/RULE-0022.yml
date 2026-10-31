@@ -1,0 +1,20 @@
+uid: RULE-0022
+type: rule
+status: proposed
+title: The follows link orders a plan
+text: 'An activity, milestone or shift follows another activity, milestone or shift:
+  it may begin only once the one it follows has finished. A plan''s order is made
+  of this link alone. Following is grounding, so a circular order fails the check,
+  and a change to an item marks what follows it suspect.'
+rationale: Declared in throughline.toml in [links] types and ground_link_types, with
+  link_rules.follows = { from = [activity, milestone, shift], to = [activity, milestone,
+  shift] }.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+- target: NG-0005
+  type: derives_from
+attrs:
+  origin: ai
+key: 126193df-0197-4b35-8fa2-188cd1b8916f

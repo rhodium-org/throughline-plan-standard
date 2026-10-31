@@ -1,0 +1,14 @@
+uid: NG-0002
+type: non_goal
+status: proposed
+title: No resource assignment or levelling in this edition
+text: The standard holds no resources, capacities, rates or levelling. An activity
+  may name who does it, as text that nothing is worked out from.
+rationale: Left for a later edition (operator, 30 October 2026).
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 52158131-0734-416f-9bb8-ea0b4c184c35

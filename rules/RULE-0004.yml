@@ -1,0 +1,14 @@
+uid: RULE-0004
+type: rule
+status: proposed
+title: A shift is a kind of item a plan holds
+text: A shift moves what follows it later or earlier by a number of working days.
+  Placed between two items in a chain it is a lag when positive and a lead when negative.
+rationale: Declared in throughline.toml as [types.shift].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 6039a9a8-63f4-441c-afff-70f5fbaa3045

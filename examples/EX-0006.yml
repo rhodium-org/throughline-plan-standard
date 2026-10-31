@@ -1,0 +1,17 @@
+uid: EX-0006
+type: example
+status: proposed
+title: A deadline that nothing meets
+text: conformance/unmet-deadline holds a deadline that no milestone meets. tl check
+  reports it unserved.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0021
+  type: verifies
+- target: RULE-0026
+  type: verifies
+attrs:
+  origin: ai
+key: a0dd39da-b982-40d4-95a3-9323db1f1081

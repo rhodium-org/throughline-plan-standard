@@ -1,0 +1,15 @@
+uid: RULE-0026
+type: rule
+status: proposed
+title: The meets link answers a deadline
+text: 'A milestone meets a deadline: the plan expects to reach it by the deadline''s
+  date. Meeting is grounding, so a deadline nothing meets is reported unserved.'
+rationale: Declared in throughline.toml in [links] types and ground_link_types, with
+  link_rules.meets = { from = [milestone], to = [deadline] }.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 52a6f2e2-be03-43d9-9bbd-abcbdfbbc02c

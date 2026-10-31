@@ -1,0 +1,15 @@
+uid: NG-0006
+type: non_goal
+status: proposed
+title: No fixed dates on activities or milestones in this edition
+text: An activity or milestone has no start-no-earlier-than, must-start-on or similar
+  date of its own. A date from outside is a deadline, which a milestone meets.
+rationale: Keeps one anchor, the plan's start, from which every date is worked out;
+  date constraints may come in a later edition.
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 404bbcf4-9adf-4df3-8740-59a4d87af222

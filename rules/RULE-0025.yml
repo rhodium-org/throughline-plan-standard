@@ -1,0 +1,16 @@
+uid: RULE-0025
+type: rule
+status: proposed
+title: The finishes link names an activity's finish
+text: A milestone that finishes an activity is the moment the activity ends. Where
+  it follows another item the activity ends no earlier than that item finishes, so
+  finish-to-finish orders need no link of their own.
+rationale: Declared in throughline.toml in [links] types with link_rules.finishes
+  = { from = [milestone], to = [activity] }.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: c2f2219f-f884-4f1c-a2d8-a901e6d45c56

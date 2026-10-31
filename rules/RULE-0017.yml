@@ -1,0 +1,20 @@
+uid: RULE-0017
+type: rule
+status: proposed
+title: A shift's by
+text: 'A shift records by: how many working days later what follows it may begin;
+  negative brings it earlier. Its value is a number. Required. Part of what a signature
+  on the item covers.'
+rationale: 'Declared in throughline.toml as [types.shift] attrs.by = {"type": "float",
+  "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0004
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+- target: RULE-0006
+  type: derives_from
+attrs:
+  origin: ai
+key: 5475a8a7-f275-4949-9b03-abf737b3e664

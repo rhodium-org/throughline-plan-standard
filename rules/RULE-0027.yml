@@ -1,0 +1,17 @@
+uid: RULE-0027
+type: rule
+status: proposed
+title: A shift sits between two items
+text: A shift follows exactly the item it delays and is followed by the item it delays;
+  one with nothing on either side is an error.
+rationale: 'Declared in throughline.toml as two coverage rules on type == ''shift'':
+  needs = ''outgoing:follows'' and needs = ''incoming:follows'', severity error.'
+normative: true
+links:
+- target: RULE-0004
+  type: derives_from
+- target: RULE-0022
+  type: derives_from
+attrs:
+  origin: ai
+key: d2577671-d688-498c-a9f2-b0d4208027e3

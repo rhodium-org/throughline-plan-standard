@@ -1,0 +1,15 @@
+uid: INT-0001
+type: intent
+status: proposed
+title: One model every plan is written in
+text: 'Every plan, whoever keeps it, is written in one model: the same kinds of item,
+  attributes, links and lifecycle, taken from this standard and never copied. The
+  model holds what a plan is; how it is drawn and what is worked out from it belong
+  to whoever reads it.'
+rationale: A Gantt chart, a board and a critical-path list are views of one plan,
+  so the model stands apart from any of them. A plan graph takes its schema from
+  a source (throughline SR-0275), so the model needs a home of its own.
+normative: false
+attrs:
+  origin: ai
+key: 89384d54-8631-4de7-8ee5-c773f137b33e

@@ -1,0 +1,18 @@
+uid: RULE-0006
+type: rule
+status: proposed
+title: Time in a plan is counted in working days
+text: Every duration, estimate, shift and remaining figure in a plan is a number
+  of working days, which may be a fraction. A working day is Monday to Friday; this
+  edition has no holidays.
+rationale: One unit everywhere means no figure needs its unit stated beside it; calendars
+  are left for a later edition.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+- target: NG-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 3392b4e4-84d0-46f8-bf93-7c95ce67a04d

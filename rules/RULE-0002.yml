@@ -1,0 +1,15 @@
+uid: RULE-0002
+type: rule
+status: proposed
+title: An activity is a kind of item a plan holds
+text: 'An activity is work that takes time: how many working days it is expected
+  to take, what the estimate''s range is, who does it and how far it has got. It
+  is part of the plan or of a larger activity.'
+rationale: Declared in throughline.toml as [types.activity].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 1660375a-55f4-4fe3-84f5-e9a3e60f3f16

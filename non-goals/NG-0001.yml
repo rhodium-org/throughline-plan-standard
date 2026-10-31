@@ -1,0 +1,14 @@
+uid: NG-0001
+type: non_goal
+status: proposed
+title: No working calendars or holidays in this edition
+text: The standard holds no calendar of working days, holidays or shifts of work.
+  Every plan counts Monday to Friday as its working days.
+rationale: Left for a later edition (operator, 30 October 2026).
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 1a5241cc-744a-4f58-a3b4-0ef92bcb1fd8

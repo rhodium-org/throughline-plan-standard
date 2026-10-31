@@ -1,0 +1,13 @@
+uid: CON-0002
+type: constraint
+status: proposed
+title: A change that would fail a conforming plan is a new major edition
+text: The standard is released as tagged editions. An edition that removes or narrows
+  anything a conforming plan may rely on is a new major, and its notes say what a
+  plan must change.
+rationale: Once plans inherit the standard, every one that moves its pin takes a
+  change at once.
+normative: true
+attrs:
+  origin: ai
+key: 228ae399-0238-4bda-b729-d2609c08769c

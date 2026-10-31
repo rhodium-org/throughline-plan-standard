@@ -1,0 +1,14 @@
+uid: NG-0007
+type: non_goal
+status: proposed
+title: No one's actual plan
+text: The standard holds no plan of any client, project or person; its conformance
+  examples are invented.
+rationale: Real plans live in their keepers' own repositories.
+normative: false
+links:
+- target: CON-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 04f435bb-35bd-432f-93b1-1f26914a6759

@@ -1,0 +1,15 @@
+uid: RULE-0023
+type: rule
+status: proposed
+title: The part_of link breaks a plan down
+text: An activity or milestone is part of the plan or of a larger activity. The span
+  of an activity with parts is worked out from its parts, never recorded.
+rationale: Declared in throughline.toml in [links] types and ground_link_types, with
+  link_rules.part_of = { from = [activity, milestone], to = [plan, activity] }.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 2907baa0-5c97-4ecb-9765-78533b0122fc

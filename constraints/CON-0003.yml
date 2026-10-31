@@ -1,0 +1,12 @@
+uid: CON-0003
+type: constraint
+status: proposed
+title: Followers run throughline 4.4.0 or later
+text: A plan that follows the standard is checked with throughline 4.4.0 or later,
+  which checks every declared attribute's kind and passes coverage rules on to followers.
+rationale: Earlier releases check only required attributes and enum values, so dates
+  and durations would go unchecked (throughline SR-0282).
+normative: true
+attrs:
+  origin: ai
+key: b2288eaa-56ca-4670-a255-1eb77cfcbe0e

@@ -1,0 +1,15 @@
+uid: EX-0005
+type: example
+status: proposed
+title: A shift with nothing after it
+text: conformance/loose-shift holds a shift that follows an activity and that nothing
+  follows. tl check reports the coverage rule unmet.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0027
+  type: verifies
+attrs:
+  origin: ai
+key: 464f7d73-be75-4dc9-880c-e392591eebc6
