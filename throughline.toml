@@ -80,28 +80,28 @@ suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "d
 rejected    = ["draft", "deleted"]
 
 # The template's requirement rule; the standard holds rules, not requirements
-# (plan-iddn-uk shape DEC-0004, NG-0001)
+# (rhodium-org/plan idd/shape DEC-0004, NG-0001)
 
-# Obligations on the standard itself (plan-iddn-uk shape DEC-0003)
+# Obligations on the standard itself (rhodium-org/plan idd/shape DEC-0003)
 [types.constraint]
 # Every item records where it came from
 attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 
-# What a conforming plan graph must do or may hold (plan-iddn-uk shape
+# What a conforming plan graph must do or may hold (rhodium-org/plan idd/shape
 # DEC-0004)
 [types.rule]
 # Every item records where it came from
 attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 
 # An example plan graph that shows a rule kept or broken; it verifies rather
-# than binds (plan-iddn-uk shape DEC-0005)
+# than binds (rhodium-org/plan idd/shape DEC-0005)
 [types.example]
 normative = false
 # Every item records where it came from
 attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 
 # Conformance is shown, not asserted: every rule has an example that verifies
-# it (plan-iddn-uk shape NEED-0010, DEC-0005)
+# it (rhodium-org/plan idd/shape NEED-0010, DEC-0005)
 [[rules.coverage]]
 filter = "type == 'rule' and status != 'deleted'"
 needs = "incoming:verifies"
