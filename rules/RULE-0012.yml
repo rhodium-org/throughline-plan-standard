@@ -1,8 +1,8 @@
 uid: RULE-0012
 type: rule
 status: proposed
-title: A activity's who
-text: 'A activity may record who: who does the work, as text that nothing is worked
+title: An activity's who
+text: 'An activity may record who: who does the work, as text that nothing is worked
   out from. Its value is text. Not part of what a signature covers.'
 rationale: 'Declared in throughline.toml as [types.activity] attrs.who = {"type":
   "string", "normative": false}.'

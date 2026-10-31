@@ -1,7 +1,7 @@
 uid: RULE-0001
 type: rule
 status: proposed
-title: A plan is a kind of item a plan holds
+title: A plan item is what a plan graph is about
 text: 'A plan graph holds one plan item: the plan''s name and the day its work begins.
   Every activity and milestone is part of it, directly or through a larger activity.'
 rationale: Declared in throughline.toml as [types.plan].

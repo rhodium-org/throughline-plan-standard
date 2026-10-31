@@ -1,8 +1,8 @@
 uid: RULE-0009
 type: rule
 status: proposed
-title: A activity's duration
-text: 'A activity records duration: how many working days the activity is expected
+title: An activity's duration
+text: 'An activity records duration: how many working days the activity is expected
   to take. Its value is a number. Required. Part of what a signature on the item
   covers.'
 rationale: 'Declared in throughline.toml as [types.activity] attrs.duration = {"type":

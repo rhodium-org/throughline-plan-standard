@@ -1,8 +1,8 @@
 uid: RULE-0011
 type: rule
 status: proposed
-title: A activity's pessimistic
-text: 'A activity may record pessimistic: the most working days it could take. Its
+title: An activity's pessimistic
+text: 'An activity may record pessimistic: the most working days it could take. Its
   value is a number. Part of what a signature on the item covers.'
 rationale: 'Declared in throughline.toml as [types.activity] attrs.pessimistic =
   {"type": "float", "normative": true}.'
