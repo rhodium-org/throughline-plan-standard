@@ -1,0 +1,14 @@
+uid: ACT-0002
+type: activity
+status: draft
+title: Other work
+text: Other work.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+- target: ACT-0001
+  type: follows
+attrs:
+  duration: 2.0
+  origin: human

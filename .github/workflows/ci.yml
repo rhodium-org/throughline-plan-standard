@@ -16,3 +16,5 @@ jobs:
       - run: pip install "throughline>=4.4.0"
       - name: The standard's graph is sound
         run: tl check
+      - name: Every conformance example passes or fails as its EX item says
+        run: bash conformance/check.sh

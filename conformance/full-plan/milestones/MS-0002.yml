@@ -1,0 +1,15 @@
+uid: MS-0002
+type: milestone
+status: draft
+title: Network starts
+text: Network starts.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+- target: ACT-0005
+  type: starts
+- target: SH-0002
+  type: follows
+attrs:
+  origin: human

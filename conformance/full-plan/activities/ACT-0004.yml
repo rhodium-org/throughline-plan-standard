@@ -1,0 +1,12 @@
+uid: ACT-0004
+type: activity
+status: draft
+title: Build partitions
+text: Build partitions.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+attrs:
+  duration: 10.0
+  origin: human

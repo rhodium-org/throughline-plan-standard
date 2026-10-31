@@ -1,0 +1,15 @@
+uid: MS-0004
+type: milestone
+status: draft
+title: Network finishes
+text: Network finishes.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+- target: ACT-0005
+  type: finishes
+- target: SH-0003
+  type: follows
+attrs:
+  origin: human

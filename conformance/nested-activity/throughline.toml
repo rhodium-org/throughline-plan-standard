@@ -1,0 +1,9 @@
+[project]
+name = "nested-activity (conformance example)"
+format_version = 4
+
+# The standard this example follows, by path from conformance/nested-activity/.
+[[sources]]
+namespace = "plan"
+path = "../.."
+schema = true

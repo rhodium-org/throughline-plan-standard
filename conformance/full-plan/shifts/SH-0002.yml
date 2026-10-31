@@ -1,0 +1,12 @@
+uid: SH-0002
+type: shift
+status: draft
+title: Network starts two days into the partitions
+text: Network starts two days into the partitions.
+normative: true
+links:
+- target: MS-0001
+  type: follows
+attrs:
+  by: 2.0
+  origin: human

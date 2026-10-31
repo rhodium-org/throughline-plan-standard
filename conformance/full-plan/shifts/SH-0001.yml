@@ -1,0 +1,12 @@
+uid: SH-0001
+type: shift
+status: draft
+title: Furniture takes three weeks to arrive
+text: Furniture takes three weeks to arrive.
+normative: true
+links:
+- target: ACT-0003
+  type: follows
+attrs:
+  by: 15.0
+  origin: human

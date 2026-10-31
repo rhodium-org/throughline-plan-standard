@@ -1,0 +1,15 @@
+uid: MS-0001
+type: milestone
+status: draft
+title: Done
+text: Done.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+- target: DL-0001
+  type: meets
+- target: DL-0001
+  type: starts
+attrs:
+  origin: human

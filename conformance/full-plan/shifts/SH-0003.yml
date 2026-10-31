@@ -1,0 +1,12 @@
+uid: SH-0003
+type: shift
+status: draft
+title: Network may finish a day before the partitions
+text: Network may finish a day before the partitions.
+normative: true
+links:
+- target: MS-0003
+  type: follows
+attrs:
+  by: -1.0
+  origin: human

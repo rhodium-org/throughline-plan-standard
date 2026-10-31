@@ -1,0 +1,12 @@
+uid: ACT-0005
+type: activity
+status: draft
+title: Install the network
+text: Install the network.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+attrs:
+  duration: 6.0
+  origin: human

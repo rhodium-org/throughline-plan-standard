@@ -1,0 +1,13 @@
+uid: MS-0003
+type: milestone
+status: draft
+title: Partitions finish
+text: Partitions finish.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+- target: ACT-0004
+  type: finishes
+attrs:
+  origin: human

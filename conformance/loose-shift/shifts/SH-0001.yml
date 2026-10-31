@@ -1,0 +1,12 @@
+uid: SH-0001
+type: shift
+status: draft
+title: A wait with nothing after it
+text: A wait with nothing after it.
+normative: true
+links:
+- target: ACT-0001
+  type: follows
+attrs:
+  by: 3.0
+  origin: human

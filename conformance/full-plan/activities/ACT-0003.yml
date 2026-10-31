@@ -1,0 +1,14 @@
+uid: ACT-0003
+type: activity
+status: draft
+title: Order furniture
+text: Order furniture.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+- target: ACT-0002
+  type: follows
+attrs:
+  duration: 0.5
+  origin: human

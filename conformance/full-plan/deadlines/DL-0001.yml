@@ -1,0 +1,10 @@
+uid: DL-0001
+type: deadline
+status: draft
+title: The lease on the old office ends
+text: The lease on the old office ends.
+normative: true
+attrs:
+  date: '2027-03-31'
+  set_by: the old office's lease
+  origin: human

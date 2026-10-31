@@ -1,0 +1,12 @@
+uid: ACT-0002
+type: activity
+status: draft
+title: Work inside other work
+text: Work inside other work.
+normative: true
+links:
+- target: ACT-0001
+  type: part_of
+attrs:
+  duration: 1.0
+  origin: human

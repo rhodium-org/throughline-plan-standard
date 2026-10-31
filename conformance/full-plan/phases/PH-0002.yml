@@ -1,0 +1,13 @@
+uid: PH-0002
+type: phase
+status: draft
+title: Fit out
+text: Fit out.
+normative: true
+links:
+- target: PLN-0001
+  type: part_of
+- target: PH-0001
+  type: follows
+attrs:
+  origin: human

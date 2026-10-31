@@ -1,0 +1,9 @@
+uid: PLN-0001
+type: plan
+status: draft
+title: Move the team to a new office
+text: Move the team to a new office.
+normative: true
+attrs:
+  start: '2027-01-04'
+  origin: human

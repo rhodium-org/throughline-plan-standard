@@ -1,0 +1,16 @@
+uid: ACT-0006
+type: activity
+status: draft
+title: Place the furniture
+text: Place the furniture.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+- target: SH-0001
+  type: follows
+- target: ACT-0004
+  type: follows
+attrs:
+  duration: 2.0
+  origin: human

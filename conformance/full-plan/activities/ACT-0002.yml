@@ -1,0 +1,14 @@
+uid: ACT-0002
+type: activity
+status: draft
+title: Agree the layout
+text: Agree the layout.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+- target: ACT-0001
+  type: follows
+attrs:
+  duration: 5.0
+  origin: human

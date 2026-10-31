@@ -1,0 +1,10 @@
+uid: DL-0001
+type: deadline
+status: draft
+title: A date nothing meets
+text: A date nothing meets.
+normative: true
+attrs:
+  date: '2027-02-01'
+  set_by: a contract
+  origin: human

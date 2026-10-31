@@ -1,0 +1,15 @@
+uid: MS-0005
+type: milestone
+status: draft
+title: Team moves in
+text: Team moves in.
+normative: true
+links:
+- target: PLN-0001
+  type: part_of
+- target: PH-0002
+  type: follows
+- target: DL-0001
+  type: meets
+attrs:
+  origin: human

@@ -1,0 +1,14 @@
+uid: ACT-0001
+type: activity
+status: draft
+title: Do the work
+text: Do the work.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+- target: ACT-0002
+  type: follows
+attrs:
+  duration: 5.0
+  origin: human

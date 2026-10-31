@@ -1,8 +1,8 @@
 # Plan format standard
 
 A [throughline](https://github.com/rhodium-org/throughline) graph that states the
-model a plan is written in: the kinds of item a plan holds (activities, milestones,
-deadlines, shifts), their attributes and kinds, the one link that orders them, how
+model a plan is written in: the kinds of item a plan holds (phases, activities,
+milestones, shifts, deadlines), their attributes and kinds, the one link that orders them, how
 a plan breaks down, and what signing a plan means.
 
 It is a standard, not a tool and not a plan. It holds no plan and says nothing
@@ -11,17 +11,38 @@ plan graph.
 
 ## The shape of a plan
 
-- **One link orders a plan:** "this follows that". A lag is a *shift* item with a
-  positive duration placed in the chain between two items; a lead is a shift with a
-  negative one. No link carries an attribute.
-- **Every dependency kind is that same link.** An activity's start or finish can be
-  named as a milestone, so start-to-start and finish-to-finish are links to those.
+| Kind | What it is | Records |
+|---|---|---|
+| `plan` | the plan itself, one per graph | `start`, the first working day |
+| `phase` | a group of activities, milestones and phases | nothing of its own; its span is worked out |
+| `activity` | work that takes time | `duration`, `optimistic`, `pessimistic`; `who`, `started`, `finished`, `remaining` |
+| `milestone` | a moment that takes no time | `reached` |
+| `shift` | a lag (positive) or lead (negative) in a chain | `by` |
+| `deadline` | a date set from outside the plan | `date`, `set_by` |
+
+| Link | From | To | Means |
+|---|---|---|---|
+| `follows` | activity, milestone, phase, shift | the same | may begin once that has finished |
+| `part_of` | activity, milestone, phase | plan, phase | the breakdown |
+| `starts` / `finishes` | milestone | activity | the milestone is the activity's start or finish |
+| `meets` | milestone | deadline | the plan expects to reach it by that date |
+
+- **One link orders a plan:** "this follows that". A lag is a *shift* item placed in
+  the chain between two items; a lead is a shift with a negative `by`. No link
+  carries an attribute.
+- **Every dependency kind is that same link.** Name an activity's start or finish as
+  a milestone and link to it: start-to-start, finish-to-finish and start-to-finish
+  need no link types of their own.
 - **What can be worked out is never stored:** early and late dates, slack, the
-  critical path and a summary's span are computed by whoever reads the plan.
-- **A ratified plan is the baseline.** Progress is recorded without touching what
-  was signed; changing a duration or a link shows as drift from the baseline.
-- Durations are in working days. Calendars and resource levelling are left for a
-  later edition.
+  critical path and a phase's span are computed by whoever reads the plan.
+- **A ratified plan is the baseline.** Durations, estimates, shifts and deadlines are
+  what a signature covers; `who`, `started`, `finished`, `remaining` and `reached`
+  are not, so recording progress never moves the baseline.
+- **Time is in working days**, Monday to Friday, and may be fractional. Calendars,
+  resources and fixed dates on activities are left for a later edition.
+- A circular order fails the check, a shift must sit between two items, every
+  phase, activity and milestone is part of something, and a deadline nothing meets
+  is reported.
 
 ## Following the standard
 
