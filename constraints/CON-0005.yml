@@ -12,13 +12,13 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-31T12:04:28Z'
-  fingerprint: sha256:ad7757d097cad853c2938776d5c852e63447bf071c9c0a392d8719acaec840bb
+  at: '2026-10-31T12:18:33Z'
+  fingerprint: sha256:dc26a088e0630d8c54a8b2b9b70961fd47f09bfae38e486e78447c31dfb64d4e
   content:
     type: constraint
     text: 'The standard declares no attribute for a figure that can be worked out
       from durations, shifts and links: early and late dates, slack, the critical
-      path, or the span of an activity that has parts.'
+      path, or the span of a phase.'
     normative: true
     derived: false
     attrs: {}

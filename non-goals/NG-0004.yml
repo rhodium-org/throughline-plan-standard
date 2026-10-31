@@ -13,12 +13,12 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-31T12:04:38Z'
-  fingerprint: sha256:7b591f3138b621946a259603ff16cd65c6f559c5e5c2687144240a920bb7dac1
+  at: '2026-10-31T12:18:33Z'
+  fingerprint: sha256:fb277473b99a63c53010addc4bfb1d1825180f9ae6fbbb84a1c9ed000eb60a40
   content:
     type: non_goal
     text: The standard holds no early or late dates, slack, critical path or span
-      of an activity with parts.
+      of a phase.
     normative: false
     derived: false
     attrs: {}

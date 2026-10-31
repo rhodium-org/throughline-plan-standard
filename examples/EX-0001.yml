@@ -75,15 +75,15 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-31T12:04:54Z'
-  fingerprint: sha256:98cea8043704cb3bd348e7d0225658341538a03c00c0342be7334d262add24cf
+  at: '2026-10-31T12:18:35Z'
+  fingerprint: sha256:599e0e6da97ded8407cea86924f7035207d83b33991fd3779cc267abb7bfebdf
   content:
     type: example
-    text: conformance/full-plan holds a plan broken down into activities with estimates,
-      a lag and a lead as shift items, a start-to-start order through start milestones,
-      a finish-to-finish order through finish milestones, a deadline met by a milestone,
-      and progress recorded on a ratified activity. It passes tl check against the
-      standard.
+    text: conformance/full-plan holds a plan broken down into phases and activities
+      with estimates, a lag and a lead as shift items, an item following a phase,
+      a start-to-start order through start milestones, a finish-to-finish order through
+      finish milestones, a deadline met by a milestone, and progress recorded on
+      a ratified activity. It passes tl check against the standard.
     normative: false
     derived: false
     attrs: {}

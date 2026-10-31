@@ -14,13 +14,13 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-31T12:04:42Z'
-  fingerprint: sha256:bf2b60d7fa8ba5a8d35ce41feeffa039fa5725be2dbf1456e66fdc754b58707c
+  at: '2026-10-31T12:18:33Z'
+  fingerprint: sha256:666a60631298baa07472a9b37740e0a604c344dca29690a7136ee5c828e3e086
   content:
     type: rule
     text: 'An activity is work that takes time: how many working days it is expected
       to take, what the estimate''s range is, who does it and how far it has got.
-      It is part of the plan or of a larger activity.'
+      It is part of the plan or of a phase, and nothing is part of it.'
     normative: true
     derived: false
     attrs: {}

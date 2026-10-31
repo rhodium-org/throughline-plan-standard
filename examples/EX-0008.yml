@@ -1,6 +1,6 @@
 uid: EX-0008
 type: example
-status: proposed
+status: ratified
 title: An activity that is part of another activity
 text: 'conformance/nested-activity holds an activity that is part of another activity.
   tl check reports the part_of link''s target type not allowed: work is grouped by
@@ -15,4 +15,16 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:18:33Z'
+  fingerprint: sha256:e50a90dabe59d2f1f4a32388f3a6ac5c139f500507523d96e4cc4d70832cf7aa
+  content:
+    type: example
+    text: 'conformance/nested-activity holds an activity that is part of another
+      activity. tl check reports the part_of link''s target type not allowed: work
+      is grouped by a phase.'
+    normative: false
+    derived: false
+    attrs: {}
 key: 3e8a1f20-7c4d-4b6e-8a95-0d2c4f6b8e13

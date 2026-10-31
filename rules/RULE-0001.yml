@@ -13,13 +13,13 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-31T12:04:39Z'
-  fingerprint: sha256:1285f5299b96a8af332faa515b63a1010df36f71c4164822050969e7503c0c94
+  at: '2026-10-31T12:18:33Z'
+  fingerprint: sha256:544c2daa6cc748ff23bd45b9b8cdeaeda74e2432fa2cbddb4742e580a5c5dc5f
   content:
     type: rule
     text: 'A plan graph holds one plan item: the plan''s name and the day its work
-      begins. Every activity and milestone is part of it, directly or through a larger
-      activity.'
+      begins. Every activity, milestone and phase is part of it, directly or through
+      a phase.'
     normative: true
     derived: false
     attrs: {}

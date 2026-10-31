@@ -14,12 +14,12 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-31T12:04:56Z'
-  fingerprint: sha256:8cacfa6c390e9eefebfb810246becf5dd0547138f6985048c8ff9ba8d7d0f0fd
+  at: '2026-10-31T12:18:35Z'
+  fingerprint: sha256:6ce1f72086b36ce1a483b6f83a127ac309964a13e28fe31ea061d142e69d09bb
   content:
     type: rule
-    text: Every activity and milestone is part of the plan or of an activity, so
-      following another item is never the only thing placing it in the plan.
+    text: Every phase, activity and milestone is part of the plan or of a phase,
+      so following another item is never the only thing placing it in the plan.
     normative: true
     derived: false
     attrs: {}

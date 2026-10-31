@@ -14,13 +14,13 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-31T12:04:43Z'
-  fingerprint: sha256:722713380e0faec5952d1ab07bf7e5962331634767e37737375f001e6aa347bf
+  at: '2026-10-31T12:18:34Z'
+  fingerprint: sha256:3849b3b556a848b8a1f18fdfb8e35acb014e42e05fe42bbb9cc5aebbcb706f56
   content:
     type: rule
     text: 'A milestone is a moment in the plan that takes no time: a point reached,
       or the start or finish of an activity named so that other items can follow
-      it. It is part of the plan or of an activity.'
+      it. It is part of the plan or of a phase.'
     normative: true
     derived: false
     attrs: {}
