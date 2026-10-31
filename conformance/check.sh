@@ -24,6 +24,18 @@ expect_fail() {  # example, EX item, text the failure must contain
 }
 
 expect_pass full-plan       EX-0001
+
+# EX-0001 also promises that progress recorded on a ratified activity leaves its
+# signature standing: ACT-0001 is signed and carries started and remaining, and
+# the strict check (where a stale signature is an error) must still pass.
+act=full-plan/activities/ACT-0001.yml
+if grep -q '^status: ratified' "$act" && grep -q '^  started:' "$act" \
+   && grep -q '^  remaining:' "$act" && out=$(tl -C full-plan check --strict 2>&1); then
+  echo "ok    EX-0001 full-plan progress on a ratified activity leaves it signed"
+else
+  echo "FAIL  EX-0001 full-plan progress on ACT-0001 should leave it ratified and not stale"
+  echo "${out:-}"; fail=1
+fi
 expect_fail bad-date        EX-0002 "attribute 'start' is declared date but holds 'next monday'"
 expect_fail no-duration     EX-0003 "required attribute 'duration' missing"
 expect_fail circular        EX-0004 "circular justification"

@@ -11,3 +11,13 @@ links:
   type: starts
 attrs:
   origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:51Z'
+  fingerprint: sha256:cddb9d429b4522093889b5c2b4f30fc6c6fd4e97b447c41d3068c32176631bac
+  content:
+    type: milestone
+    text: Partitions start.
+    normative: true
+    derived: false
+    attrs: {}

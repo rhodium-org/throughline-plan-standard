@@ -11,3 +11,13 @@ links:
   type: follows
 attrs:
   origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:49Z'
+  fingerprint: sha256:832b6877c77cacb54221b59b3de2d8ff7c40a36ebf5f28727f5b9fd729d6a7a6
+  content:
+    type: phase
+    text: Fit out.
+    normative: true
+    derived: false
+    attrs: {}

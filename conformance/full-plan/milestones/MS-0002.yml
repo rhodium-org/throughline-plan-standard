@@ -13,3 +13,13 @@ links:
   type: follows
 attrs:
   origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:51Z'
+  fingerprint: sha256:07eb403e22ff70dac1d362c263ba9083c4d52fba83d127fd9bb485e719bf96b4
+  content:
+    type: milestone
+    text: Network starts.
+    normative: true
+    derived: false
+    attrs: {}

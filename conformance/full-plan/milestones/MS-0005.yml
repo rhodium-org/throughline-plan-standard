@@ -13,3 +13,13 @@ links:
   type: meets
 attrs:
   origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:49Z'
+  fingerprint: sha256:76fcf936cb781bf70e7fa087ac326e9dd50deab6deff98a73560daa3bc01a0ea
+  content:
+    type: milestone
+    text: Team moves in.
+    normative: true
+    derived: false
+    attrs: {}
