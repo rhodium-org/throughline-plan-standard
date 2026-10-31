@@ -3,7 +3,7 @@ type: rule
 status: ratified
 title: A plan item is what a plan graph is about
 text: 'A plan graph holds one plan item: the plan''s name and the day its work begins.
-  Every activity and milestone is part of it, directly or through a larger activity.'
+  Every activity, milestone and phase is part of it, directly or through a phase.'
 rationale: Declared in throughline.toml as [types.plan].
 normative: true
 links:

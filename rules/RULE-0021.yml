@@ -4,7 +4,7 @@ status: ratified
 title: A plan and a deadline stand on their own; everything else reaches the plan
 text: 'A plan item and a deadline may exist without a grounding link, and each must
   be served: something is part of a plan, and a milestone meets a deadline. Every
-  activity, milestone and shift reaches the plan through its links.'
+  phase, activity, milestone and shift reaches the plan through its links.'
 rationale: 'Declared in throughline.toml under [grounding]: root_types and delivery_roots
   add plan and deadline.'
 normative: true

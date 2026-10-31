@@ -2,10 +2,11 @@ uid: EX-0001
 type: example
 status: ratified
 title: A full conforming plan
-text: conformance/full-plan holds a plan broken down into activities with estimates,
-  a lag and a lead as shift items, a start-to-start order through start milestones,
-  a finish-to-finish order through finish milestones, a deadline met by a milestone,
-  and progress recorded on a ratified activity. It passes tl check against the standard.
+text: conformance/full-plan holds a plan broken down into phases and activities with
+  estimates, a lag and a lead as shift items, an item following a phase, a start-to-start
+  order through start milestones, a finish-to-finish order through finish milestones,
+  a deadline met by a milestone, and progress recorded on a ratified activity. It
+  passes tl check against the standard.
 rationale: 'Conformance is shown, not asserted: CI checks each example against the
   standard.'
 normative: false
@@ -67,6 +68,8 @@ links:
 - target: RULE-0028
   type: verifies
 - target: RULE-0029
+  type: verifies
+- target: RULE-0031
   type: verifies
 attrs:
   origin: ai

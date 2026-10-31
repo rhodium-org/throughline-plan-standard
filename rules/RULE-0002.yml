@@ -4,7 +4,7 @@ status: ratified
 title: An activity is a kind of item a plan holds
 text: 'An activity is work that takes time: how many working days it is expected
   to take, what the estimate''s range is, who does it and how far it has got. It
-  is part of the plan or of a larger activity.'
+  is part of the plan or of a phase, and nothing is part of it.'
 rationale: Declared in throughline.toml as [types.activity].
 normative: true
 links:

@@ -1,0 +1,20 @@
+uid: RULE-0031
+type: rule
+status: proposed
+title: A phase is a kind of item a plan holds
+text: 'A phase groups activities, milestones and smaller phases under one name. It
+  has no duration of its own: its span runs from the start of its first part to the
+  finish of its last, and is worked out, never recorded. It is part of the plan or
+  of a larger phase.'
+rationale: Declared in throughline.toml as [types.phase]. A summary activity would
+  need a duration the standard says it must not store (CON-0005); a kind without
+  one keeps every activity's duration required and checked.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+- target: CON-0005
+  type: derives_from
+attrs:
+  origin: ai
+key: 6b0d7c55-2f1e-4a8b-9c3d-5e7f9a1b2c4d

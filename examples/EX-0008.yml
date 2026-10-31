@@ -1,0 +1,18 @@
+uid: EX-0008
+type: example
+status: proposed
+title: An activity that is part of another activity
+text: 'conformance/nested-activity holds an activity that is part of another activity.
+  tl check reports the part_of link''s target type not allowed: work is grouped by
+  a phase.'
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0031
+  type: verifies
+- target: RULE-0023
+  type: verifies
+attrs:
+  origin: ai
+key: 3e8a1f20-7c4d-4b6e-8a95-0d2c4f6b8e13

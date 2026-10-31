@@ -3,7 +3,7 @@ type: non_goal
 status: ratified
 title: No worked-out figures
 text: The standard holds no early or late dates, slack, critical path or span of
-  an activity with parts.
+  a phase.
 rationale: Whoever reads the plan works them out.
 normative: false
 links:

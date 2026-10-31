@@ -4,7 +4,7 @@ status: ratified
 title: A milestone is a kind of item a plan holds
 text: 'A milestone is a moment in the plan that takes no time: a point reached, or
   the start or finish of an activity named so that other items can follow it. It
-  is part of the plan or of an activity.'
+  is part of the plan or of a phase.'
 rationale: Declared in throughline.toml as [types.milestone].
 normative: true
 links:

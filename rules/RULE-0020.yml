@@ -2,9 +2,9 @@ uid: RULE-0020
 type: rule
 status: ratified
 title: Every item in a plan records where it came from
-text: 'Every plan, activity, milestone, shift and deadline may record origin: whether
-  a person, an assistant or both wrote it. Its value is one of human, ai, hybrid.
-  An item an assistant wrote is checked as awaiting a person''s signature.'
+text: 'Every plan, phase, activity, milestone, shift and deadline may record origin:
+  whether a person, an assistant or both wrote it. Its value is one of human, ai,
+  hybrid. An item an assistant wrote is checked as awaiting a person''s signature.'
 rationale: 'Declared in throughline.toml on each plan type as attrs.origin = {"type":
   "enum", "values": ["human", "ai", "hybrid"]}; ai and hybrid are the graph''s ai_origins.'
 normative: true
