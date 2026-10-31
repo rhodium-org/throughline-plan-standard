@@ -1,6 +1,6 @@
 uid: RULE-0028
 type: rule
-status: proposed
+status: ratified
 title: Every activity and milestone is part of something
 text: Every activity and milestone is part of the plan or of an activity, so following
   another item is never the only thing placing it in the plan.
@@ -12,4 +12,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:56Z'
+  fingerprint: sha256:8cacfa6c390e9eefebfb810246becf5dd0547138f6985048c8ff9ba8d7d0f0fd
+  content:
+    type: rule
+    text: Every activity and milestone is part of the plan or of an activity, so
+      following another item is never the only thing placing it in the plan.
+    normative: true
+    derived: false
+    attrs: {}
 key: 5775ff27-a945-4eaa-b27f-30a37c00a58d

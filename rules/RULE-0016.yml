@@ -1,6 +1,6 @@
 uid: RULE-0016
 type: rule
-status: proposed
+status: ratified
 title: A milestone's reached
 text: 'A milestone may record reached: the day the milestone was actually reached.
   Its value is a calendar date, YYYY-MM-DD. Not part of what a signature covers.'
@@ -16,4 +16,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:47Z'
+  fingerprint: sha256:03d86902c2ed6dd9515e774017d3baaa36e8d8a3328f6acf5da799295ff53c20
+  content:
+    type: rule
+    text: 'A milestone may record reached: the day the milestone was actually reached.
+      Its value is a calendar date, YYYY-MM-DD. Not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 64abaeff-997b-4e5b-84c8-de14640ed1dd

@@ -1,6 +1,6 @@
 uid: RULE-0001
 type: rule
-status: proposed
+status: ratified
 title: A plan item is what a plan graph is about
 text: 'A plan graph holds one plan item: the plan''s name and the day its work begins.
   Every activity and milestone is part of it, directly or through a larger activity.'
@@ -11,4 +11,16 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:39Z'
+  fingerprint: sha256:1285f5299b96a8af332faa515b63a1010df36f71c4164822050969e7503c0c94
+  content:
+    type: rule
+    text: 'A plan graph holds one plan item: the plan''s name and the day its work
+      begins. Every activity and milestone is part of it, directly or through a larger
+      activity.'
+    normative: true
+    derived: false
+    attrs: {}
 key: e9fc8647-1e6a-456c-be65-243fdf7ebfdd

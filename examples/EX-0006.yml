@@ -1,6 +1,6 @@
 uid: EX-0006
 type: example
-status: proposed
+status: ratified
 title: A deadline that nothing meets
 text: conformance/unmet-deadline holds a deadline that no milestone meets. tl check
   reports it unserved.
@@ -14,4 +14,15 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:54Z'
+  fingerprint: sha256:d292b606a65fdf17ccd2f50b4901bcb04b62f68dff6f31ad40f9fc20eec8994a
+  content:
+    type: example
+    text: conformance/unmet-deadline holds a deadline that no milestone meets. tl
+      check reports it unserved.
+    normative: false
+    derived: false
+    attrs: {}
 key: a0dd39da-b982-40d4-95a3-9323db1f1081

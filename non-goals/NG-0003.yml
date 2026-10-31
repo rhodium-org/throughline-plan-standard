@@ -1,6 +1,6 @@
 uid: NG-0003
 type: non_goal
-status: proposed
+status: ratified
 title: No drawing
 text: The standard holds no colours, scales, rows, bars, lanes or any other way a
   plan looks.
@@ -11,4 +11,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:38Z'
+  fingerprint: sha256:8a8cffd68ecad33e5241c017ef6dc29ac0aefcb6df2456ff89cdf260429afa18
+  content:
+    type: non_goal
+    text: The standard holds no colours, scales, rows, bars, lanes or any other way
+      a plan looks.
+    normative: false
+    derived: false
+    attrs: {}
 key: 8a93d2f5-d94e-423f-bf22-3732ac811e0b

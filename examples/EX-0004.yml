@@ -1,6 +1,6 @@
 uid: EX-0004
 type: example
-status: proposed
+status: ratified
 title: A plan whose order goes round in a circle
 text: conformance/circular holds two activities that each follow the other. tl check
   reports grounding-cycle.
@@ -12,4 +12,15 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:54Z'
+  fingerprint: sha256:83ae8338c6d66b3a66514a8e1404a27c6f0d6510c0abbbe3a544487b0d76afb9
+  content:
+    type: example
+    text: conformance/circular holds two activities that each follow the other. tl
+      check reports grounding-cycle.
+    normative: false
+    derived: false
+    attrs: {}
 key: a086fc44-91f0-42ac-8aa8-396e5b327f22

@@ -1,6 +1,6 @@
 uid: RULE-0004
 type: rule
-status: proposed
+status: ratified
 title: A shift is a kind of item a plan holds
 text: A shift moves what follows it later or earlier by a number of working days.
   Placed between two items in a chain it is a lag when positive and a lead when negative.
@@ -11,4 +11,16 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:44Z'
+  fingerprint: sha256:980bc504adea87ffa2859714dbe6d8416596eae3e34d326caeb51feb09e834cf
+  content:
+    type: rule
+    text: A shift moves what follows it later or earlier by a number of working days.
+      Placed between two items in a chain it is a lag when positive and a lead when
+      negative.
+    normative: true
+    derived: false
+    attrs: {}
 key: 6039a9a8-63f4-441c-afff-70f5fbaa3045

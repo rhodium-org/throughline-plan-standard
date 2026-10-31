@@ -1,6 +1,6 @@
 uid: RULE-0006
 type: rule
-status: proposed
+status: ratified
 title: Time in a plan is counted in working days
 text: Every duration, estimate, shift and remaining figure in a plan is a number
   of working days, which may be a fraction. A working day is Monday to Friday; this
@@ -15,4 +15,16 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:45Z'
+  fingerprint: sha256:df9c091c8ada8fb08ff7478d044bd950e103387a70dd5387c1484067b4af1a1e
+  content:
+    type: rule
+    text: Every duration, estimate, shift and remaining figure in a plan is a number
+      of working days, which may be a fraction. A working day is Monday to Friday;
+      this edition has no holidays.
+    normative: true
+    derived: false
+    attrs: {}
 key: 3392b4e4-84d0-46f8-bf93-7c95ce67a04d

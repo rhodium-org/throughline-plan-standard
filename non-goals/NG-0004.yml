@@ -1,6 +1,6 @@
 uid: NG-0004
 type: non_goal
-status: proposed
+status: ratified
 title: No worked-out figures
 text: The standard holds no early or late dates, slack, critical path or span of
   an activity with parts.
@@ -11,4 +11,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:38Z'
+  fingerprint: sha256:7b591f3138b621946a259603ff16cd65c6f559c5e5c2687144240a920bb7dac1
+  content:
+    type: non_goal
+    text: The standard holds no early or late dates, slack, critical path or span
+      of an activity with parts.
+    normative: false
+    derived: false
+    attrs: {}
 key: 45dc6773-7aba-4e3e-96a6-9c317eff4a56

@@ -1,6 +1,6 @@
 uid: RULE-0019
 type: rule
-status: proposed
+status: ratified
 title: A deadline's set by
 text: 'A deadline records set_by: who or what sets the deadline: a contract, a regulator,
   an event. Its value is text. Required. Part of what a signature on the item covers.'
@@ -14,4 +14,16 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:47Z'
+  fingerprint: sha256:c0cbe019857482836a91a50cade84fc95527681e53bfd16fe1b049baebc4ece2
+  content:
+    type: rule
+    text: 'A deadline records set_by: who or what sets the deadline: a contract,
+      a regulator, an event. Its value is text. Required. Part of what a signature
+      on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 90aff8f6-fddb-43d3-ad4c-a52c7a533dbd

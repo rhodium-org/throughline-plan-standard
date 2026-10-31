@@ -1,6 +1,6 @@
 uid: NG-0007
 type: non_goal
-status: proposed
+status: ratified
 title: No one's actual plan
 text: The standard holds no plan of any client, project or person; its conformance
   examples are invented.
@@ -11,4 +11,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:39Z'
+  fingerprint: sha256:73bd02e16a1a8c1bd9bc71fab10a01f66aaedbb0f8782e79cd32d6b29b77a933
+  content:
+    type: non_goal
+    text: The standard holds no plan of any client, project or person; its conformance
+      examples are invented.
+    normative: false
+    derived: false
+    attrs: {}
 key: 04f435bb-35bd-432f-93b1-1f26914a6759

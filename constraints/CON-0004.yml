@@ -1,6 +1,6 @@
 uid: CON-0004
 type: constraint
-status: proposed
+status: ratified
 title: The standard holds what a plan is, never how it is drawn
 text: Nothing in the standard names or depends on a colour, scale, row, bar, lane
   or layout.
@@ -9,4 +9,15 @@ rationale: One plan may be drawn as a Gantt chart, a board or a list; drawing be
 normative: true
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:20Z'
+  fingerprint: sha256:968a9b60f149a98f915e17210aac5a6e23878f0409868bf4f7fd886e2b128fc7
+  content:
+    type: constraint
+    text: Nothing in the standard names or depends on a colour, scale, row, bar,
+      lane or layout.
+    normative: true
+    derived: false
+    attrs: {}
 key: 3b04e12f-c85c-4c9f-b124-2f720e6d5e2a

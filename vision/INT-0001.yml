@@ -1,6 +1,6 @@
 uid: INT-0001
 type: intent
-status: proposed
+status: ratified
 title: One model every plan is written in
 text: 'Every plan, whoever keeps it, is written in one model: the same kinds of item,
   attributes, links and lifecycle, taken from this standard and never copied. The
@@ -12,4 +12,17 @@ rationale: A Gantt chart, a board and a critical-path list are views of one plan
 normative: false
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:31Z'
+  fingerprint: sha256:76f24c6c8e4b437ff097ded125e0ba4a30fb0348b131ce6ba792c5261c56d176
+  content:
+    type: intent
+    text: 'Every plan, whoever keeps it, is written in one model: the same kinds
+      of item, attributes, links and lifecycle, taken from this standard and never
+      copied. The model holds what a plan is; how it is drawn and what is worked
+      out from it belong to whoever reads it.'
+    normative: false
+    derived: false
+    attrs: {}
 key: 89384d54-8631-4de7-8ee5-c773f137b33e

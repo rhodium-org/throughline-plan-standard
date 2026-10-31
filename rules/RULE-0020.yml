@@ -1,6 +1,6 @@
 uid: RULE-0020
 type: rule
-status: proposed
+status: ratified
 title: Every item in a plan records where it came from
 text: 'Every plan, activity, milestone, shift and deadline may record origin: whether
   a person, an assistant or both wrote it. Its value is one of human, ai, hybrid.
@@ -13,4 +13,16 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:47Z'
+  fingerprint: sha256:7b0756614b23db489a101be04d9ed0557b2b9c773242ff0f2cc00a68bc4b7d16
+  content:
+    type: rule
+    text: 'Every plan, activity, milestone, shift and deadline may record origin:
+      whether a person, an assistant or both wrote it. Its value is one of human,
+      ai, hybrid. An item an assistant wrote is checked as awaiting a person''s signature.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 479ac75e-a08e-4978-b076-dab0f8b980c2

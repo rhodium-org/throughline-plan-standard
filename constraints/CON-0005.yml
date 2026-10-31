@@ -1,6 +1,6 @@
 uid: CON-0005
 type: constraint
-status: proposed
+status: ratified
 title: Nothing that can be worked out is stored
 text: 'The standard declares no attribute for a figure that can be worked out from
   durations, shifts and links: early and late dates, slack, the critical path, or
@@ -10,4 +10,16 @@ rationale: A stored figure drifts from the inputs it came from, and then two ans
 normative: true
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:28Z'
+  fingerprint: sha256:ad7757d097cad853c2938776d5c852e63447bf071c9c0a392d8719acaec840bb
+  content:
+    type: constraint
+    text: 'The standard declares no attribute for a figure that can be worked out
+      from durations, shifts and links: early and late dates, slack, the critical
+      path, or the span of an activity that has parts.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 8df90a65-c1f3-4a99-8c02-bdf1fbf6646e
