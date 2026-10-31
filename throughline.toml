@@ -7,9 +7,19 @@ format_version = 4
 # a root but NOT a delivery root: it is negative space, so nothing derives from
 # it and it is never flagged 'unserved'.
 [grounding]
-root_types = ["intent", "business_need", "risk", "constraint", "assumption", "non_goal"]
-delivery_roots = ["intent", "business_need", "risk", "constraint"]
-ground_link_types = ["derives_from", "mitigates", "implements", "verifies"]
+# RULE-0021
+# RULE-0021
+root_types = ["intent", "business_need", "risk", "constraint", "assumption", "non_goal",
+              "plan", "deadline"]
+# RULE-0021
+# RULE-0021
+delivery_roots = ["intent", "business_need", "risk", "constraint", "plan",
+                  "deadline"]
+# RULE-0022
+# RULE-0023
+# RULE-0026
+ground_link_types = ["derives_from", "mitigates", "implements", "verifies",
+                     "follows", "part_of", "meets"]
 ai_origins = ["ai", "hybrid"]
 
 # `normative = false` on a type means its items are not binding statements:
@@ -29,8 +39,14 @@ normative = false
 attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 
 [links]
+# RULE-0022
+# RULE-0023
+# RULE-0024
+# RULE-0025
+# RULE-0026
 types = ["refines", "verifies", "satisfies", "implements", "relates",
-         "derives_from", "mitigates", "assumes"]
+         "derives_from", "mitigates", "assumes", "follows", "part_of",
+         "starts", "finishes", "meets"]
 
 # Type-level link constraints (SR-0084): the item types each link may join.
 # Domain-specific, so left off by default — run `tl shape` to see how your
@@ -106,3 +122,101 @@ attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 filter = "type == 'rule' and status != 'deleted'"
 needs = "incoming:verifies"
 severity = "warning"
+
+# RULE-0001
+[types.plan]
+# RULE-0020
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0008
+attrs.start = { type = "date", required = true, normative = true }
+
+# RULE-0031
+[types.phase]
+# RULE-0020
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+
+# RULE-0002
+[types.activity]
+# RULE-0020
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0009
+attrs.duration = { type = "float", required = true, normative = true }
+# RULE-0010
+attrs.optimistic = { type = "float", normative = true }
+# RULE-0011
+attrs.pessimistic = { type = "float", normative = true }
+# RULE-0012
+attrs.who = { type = "string" }
+# RULE-0013
+attrs.started = { type = "date" }
+# RULE-0014
+attrs.finished = { type = "date" }
+# RULE-0015
+attrs.remaining = { type = "float" }
+
+# RULE-0003
+[types.milestone]
+# RULE-0020
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0016
+attrs.reached = { type = "date" }
+
+# RULE-0004
+[types.shift]
+# RULE-0020
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0017
+attrs.by = { type = "float", required = true, normative = true }
+
+# RULE-0005
+[types.deadline]
+# RULE-0020
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0018
+attrs.date = { type = "date", required = true, normative = true }
+# RULE-0019
+attrs.set_by = { type = "string", required = true, normative = true }
+
+[link_rules]
+# RULE-0022
+# RULE-0022
+# RULE-0022
+# RULE-0022
+# RULE-0022
+# RULE-0022
+# RULE-0022
+# RULE-0022
+follows = { from = ["activity", "milestone", "phase", "shift"], to = ["activity", "milestone", "phase", "shift"] }
+# RULE-0023
+# RULE-0023
+# RULE-0023
+# RULE-0023
+# RULE-0023
+part_of = { from = ["activity", "milestone", "phase"], to = ["plan", "phase"] }
+# RULE-0024
+# RULE-0024
+starts = { from = ["milestone"], to = ["activity"] }
+# RULE-0025
+# RULE-0025
+finishes = { from = ["milestone"], to = ["activity"] }
+# RULE-0026
+# RULE-0026
+meets = { from = ["milestone"], to = ["deadline"] }
+
+# RULE-0027
+[[rules.coverage]]
+filter = "type == 'shift'"
+needs = "outgoing:follows"
+severity = "error"
+
+# RULE-0027
+[[rules.coverage]]
+filter = "type == 'shift'"
+needs = "incoming:follows"
+severity = "error"
+
+# RULE-0028
+[[rules.coverage]]
+filter = "type in ('phase', 'activity', 'milestone')"
+needs = "outgoing:part_of"
+severity = "error"
