@@ -1,0 +1,20 @@
+uid: PLN-0001
+type: plan
+status: ratified
+title: Move the team to a new office
+text: Move the team to a new office.
+normative: true
+attrs:
+  start: '2027-01-04'
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:47Z'
+  fingerprint: sha256:27767256f8db5aa9baef4eb3437f9379a0820f9ca8f036a9f3f0e55b2f0b9cd3
+  content:
+    type: plan
+    text: Move the team to a new office.
+    normative: true
+    derived: false
+    attrs:
+      start: '2027-01-04'

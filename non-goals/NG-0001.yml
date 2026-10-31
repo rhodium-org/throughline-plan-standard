@@ -1,0 +1,25 @@
+uid: NG-0001
+type: non_goal
+status: ratified
+title: No working calendars or holidays in this edition
+text: The standard holds no calendar of working days, holidays or shifts of work.
+  Every plan counts Monday to Friday as its working days.
+rationale: Left for a later edition (operator, 30 October 2026).
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:37Z'
+  fingerprint: sha256:28b3dd32562f80fc169dde7ffc050e1dd9f6f8bb723ce032bbc2dbb2c5a2e550
+  content:
+    type: non_goal
+    text: The standard holds no calendar of working days, holidays or shifts of work.
+      Every plan counts Monday to Friday as its working days.
+    normative: false
+    derived: false
+    attrs: {}
+key: 1a5241cc-744a-4f58-a3b4-0ef92bcb1fd8

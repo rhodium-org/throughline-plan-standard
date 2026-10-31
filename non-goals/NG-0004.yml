@@ -1,0 +1,25 @@
+uid: NG-0004
+type: non_goal
+status: ratified
+title: No worked-out figures
+text: The standard holds no early or late dates, slack, critical path or span of
+  a phase.
+rationale: Whoever reads the plan works them out.
+normative: false
+links:
+- target: CON-0005
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:18:33Z'
+  fingerprint: sha256:fb277473b99a63c53010addc4bfb1d1825180f9ae6fbbb84a1c9ed000eb60a40
+  content:
+    type: non_goal
+    text: The standard holds no early or late dates, slack, critical path or span
+      of a phase.
+    normative: false
+    derived: false
+    attrs: {}
+key: 45dc6773-7aba-4e3e-96a6-9c317eff4a56

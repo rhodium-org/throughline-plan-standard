@@ -1,0 +1,29 @@
+uid: ACT-0006
+type: activity
+status: ratified
+title: Place the furniture
+text: Place the furniture.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+- target: SH-0001
+  type: follows
+- target: ACT-0004
+  type: follows
+attrs:
+  duration: 2.0
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:50Z'
+  fingerprint: sha256:4ddeff9fdfc9e68ac85ff2e092f77b8a3b24b14e9523e414aa2d024e27507732
+  content:
+    type: activity
+    text: Place the furniture.
+    normative: true
+    derived: false
+    attrs:
+      duration: 2.0
+      optimistic: ''
+      pessimistic: ''

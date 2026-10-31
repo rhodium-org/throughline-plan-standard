@@ -1,0 +1,26 @@
+uid: EX-0003
+type: example
+status: ratified
+title: An activity with no duration
+text: conformance/no-duration holds an activity without its duration. tl check reports
+  the required attribute missing.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0009
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:54Z'
+  fingerprint: sha256:b02740df570abb8b189d33732314fd58078426fec0b4894ab2e432322a5f103c
+  content:
+    type: example
+    text: conformance/no-duration holds an activity without its duration. tl check
+      reports the required attribute missing.
+    normative: false
+    derived: false
+    attrs: {}
+key: 0e6f98c1-7ba0-44b7-ac8c-0935cd75a6d7

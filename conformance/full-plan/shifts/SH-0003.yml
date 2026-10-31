@@ -1,0 +1,23 @@
+uid: SH-0003
+type: shift
+status: ratified
+title: Network may finish a day before the partitions
+text: Network may finish a day before the partitions.
+normative: true
+links:
+- target: MS-0003
+  type: follows
+attrs:
+  by: -1.0
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:53Z'
+  fingerprint: sha256:66412db17837d1839146def40024a1acd52ca760b7f59a8c3188b84ebcc273cd
+  content:
+    type: shift
+    text: Network may finish a day before the partitions.
+    normative: true
+    derived: false
+    attrs:
+      by: -1.0

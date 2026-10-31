@@ -1,0 +1,30 @@
+uid: RULE-0011
+type: rule
+status: ratified
+title: An activity's pessimistic
+text: 'An activity may record pessimistic: the most working days it could take. Its
+  value is a number. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.activity] attrs.pessimistic =
+  {"type": "float", "normative": true}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+- target: RULE-0006
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:45Z'
+  fingerprint: sha256:2222ebbe45145303b6f9b2aa050bce0c4cc47d94a7c3f9142fb61f221449b743
+  content:
+    type: rule
+    text: 'An activity may record pessimistic: the most working days it could take.
+      Its value is a number. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 2493f9d2-21fb-460e-9dd4-31768f6dfd76

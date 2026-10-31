@@ -1,0 +1,11 @@
+uid: ACT-0002
+type: activity
+status: draft
+title: Work with no duration
+text: Work with no duration.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+attrs:
+  origin: human

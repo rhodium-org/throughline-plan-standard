@@ -1,0 +1,27 @@
+uid: ACT-0003
+type: activity
+status: ratified
+title: Order furniture
+text: Order furniture.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+- target: ACT-0002
+  type: follows
+attrs:
+  duration: 0.5
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:50Z'
+  fingerprint: sha256:7e127042c69395f2489e25d3bb3bb22761d15b0db1d30e372f959c6237ffebe7
+  content:
+    type: activity
+    text: Order furniture.
+    normative: true
+    derived: false
+    attrs:
+      duration: 0.5
+      optimistic: ''
+      pessimistic: ''

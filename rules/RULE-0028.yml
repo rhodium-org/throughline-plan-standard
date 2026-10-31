@@ -1,0 +1,26 @@
+uid: RULE-0028
+type: rule
+status: ratified
+title: Every phase, activity and milestone is part of something
+text: Every phase, activity and milestone is part of the plan or of a phase, so following
+  another item is never the only thing placing it in the plan.
+rationale: 'Declared in throughline.toml as a coverage rule on type in (''phase'',
+  ''activity'', ''milestone''): needs = ''outgoing:part_of'', severity error.'
+normative: true
+links:
+- target: RULE-0023
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:18:35Z'
+  fingerprint: sha256:6ce1f72086b36ce1a483b6f83a127ac309964a13e28fe31ea061d142e69d09bb
+  content:
+    type: rule
+    text: Every phase, activity and milestone is part of the plan or of a phase,
+      so following another item is never the only thing placing it in the plan.
+    normative: true
+    derived: false
+    attrs: {}
+key: 5775ff27-a945-4eaa-b27f-30a37c00a58d

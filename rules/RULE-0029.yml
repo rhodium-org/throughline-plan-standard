@@ -1,0 +1,29 @@
+uid: RULE-0029
+type: rule
+status: ratified
+title: The lifecycle of an item in a plan
+text: Every item in a plan moves through the statuses proposed, draft, deferred,
+  approved, ratified, implemented, verified, suspect, rejected and deleted, along
+  the transitions the standard declares, with draft born, proposed put forward, ratified
+  signed, rejected invalidated, suspect withdrawn and deleted tombstoned.
+rationale: Declared in throughline.toml under [status], [status.roles] and [transitions].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:49Z'
+  fingerprint: sha256:92665248713fa307f27c0feda1b5e597196a9fe63ce37b39ed99077902ef01e1
+  content:
+    type: rule
+    text: Every item in a plan moves through the statuses proposed, draft, deferred,
+      approved, ratified, implemented, verified, suspect, rejected and deleted, along
+      the transitions the standard declares, with draft born, proposed put forward,
+      ratified signed, rejected invalidated, suspect withdrawn and deleted tombstoned.
+    normative: true
+    derived: false
+    attrs: {}
+key: 456cb1d7-e5b0-4719-b7db-f3c052de5f7c

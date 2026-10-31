@@ -1,0 +1,30 @@
+uid: RULE-0008
+type: rule
+status: ratified
+title: A plan's start
+text: 'A plan records start: the first working day of the plan, from which every
+  date in it is worked out. Its value is a calendar date, YYYY-MM-DD. Required. Part
+  of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.plan] attrs.start = {"type": "date",
+  "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0003
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:45Z'
+  fingerprint: sha256:512c6fab27e5dceaec197f75d7c4cfd538480617e3971f8fe051d1933ecf6372
+  content:
+    type: rule
+    text: 'A plan records start: the first working day of the plan, from which every
+      date in it is worked out. Its value is a calendar date, YYYY-MM-DD. Required.
+      Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 6d12cd5f-136f-48c7-8942-eee5359184a3

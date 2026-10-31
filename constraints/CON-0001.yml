@@ -1,0 +1,23 @@
+uid: CON-0001
+type: constraint
+status: ratified
+title: Nothing private is in the standard
+text: The standard is public. It names no client, person, project or internal system,
+  and holds no value only one of them uses.
+rationale: The repository is public by choice; anything one keeper needs is added
+  by that keeper's own graph.
+normative: true
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:05Z'
+  fingerprint: sha256:cf0f4fa6d2ce66df9e88d5ab1d34fa557937ee0e77e61a81d1846c3e94673dbd
+  content:
+    type: constraint
+    text: The standard is public. It names no client, person, project or internal
+      system, and holds no value only one of them uses.
+    normative: true
+    derived: false
+    attrs: {}
+key: 23280277-3f61-4d0c-9808-4b5f92de81f6

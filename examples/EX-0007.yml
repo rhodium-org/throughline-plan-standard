@@ -1,0 +1,26 @@
+uid: EX-0007
+type: example
+status: ratified
+title: A milestone that starts a deadline
+text: conformance/wrong-link links a milestone to a deadline with starts. tl check
+  reports the link's target type not allowed.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0024
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:55Z'
+  fingerprint: sha256:769a2b29080db5823bfd408696bbd1bf7b20f0e1b858de754926e788ce69ec4e
+  content:
+    type: example
+    text: conformance/wrong-link links a milestone to a deadline with starts. tl
+      check reports the link's target type not allowed.
+    normative: false
+    derived: false
+    attrs: {}
+key: 0c6fcb94-c6ca-4726-a6c5-7e3a9eb07545

@@ -1,0 +1,22 @@
+uid: DL-0001
+type: deadline
+status: ratified
+title: The lease on the old office ends
+text: The lease on the old office ends.
+normative: true
+attrs:
+  date: '2027-03-31'
+  set_by: the old office's lease
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:47Z'
+  fingerprint: sha256:09efb6fc35223a1f0656d11ed8ed3caae03cb1d8cf5a5726473729a32ea7ea3b
+  content:
+    type: deadline
+    text: The lease on the old office ends.
+    normative: true
+    derived: false
+    attrs:
+      date: '2027-03-31'
+      set_by: the old office's lease

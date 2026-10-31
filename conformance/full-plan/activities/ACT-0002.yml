@@ -1,0 +1,27 @@
+uid: ACT-0002
+type: activity
+status: ratified
+title: Agree the layout
+text: Agree the layout.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+- target: ACT-0001
+  type: follows
+attrs:
+  duration: 5.0
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:49Z'
+  fingerprint: sha256:8595aca65a3fbb1b21751036b075694b90557da4d092a2e5449be4b1fed8e9ac
+  content:
+    type: activity
+    text: Agree the layout.
+    normative: true
+    derived: false
+    attrs:
+      duration: 5.0
+      optimistic: ''
+      pessimistic: ''

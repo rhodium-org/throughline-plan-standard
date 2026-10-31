@@ -1,0 +1,37 @@
+uid: RULE-0022
+type: rule
+status: ratified
+title: The follows link orders a plan
+text: 'An activity, milestone, phase or shift follows another activity, milestone,
+  phase or shift: it may begin only once the one it follows has finished. Following
+  a phase means following its last part to finish; a phase that follows an item has
+  none of its parts begin before that item finishes. A plan''s order is made of this
+  link alone. Following is grounding, so a circular order fails the check, and a
+  change to an item marks what follows it suspect.'
+rationale: Declared in throughline.toml in [links] types and ground_link_types, with
+  link_rules.follows = { from = [activity, milestone, phase, shift], to = [activity,
+  milestone, phase, shift] }.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+- target: NG-0005
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:18:34Z'
+  fingerprint: sha256:adbcdc35b6e1a5b746905f99b9049e89fd1f4a8d638c34b581d8c27b89346b52
+  content:
+    type: rule
+    text: 'An activity, milestone, phase or shift follows another activity, milestone,
+      phase or shift: it may begin only once the one it follows has finished. Following
+      a phase means following its last part to finish; a phase that follows an item
+      has none of its parts begin before that item finishes. A plan''s order is made
+      of this link alone. Following is grounding, so a circular order fails the check,
+      and a change to an item marks what follows it suspect.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 126193df-0197-4b35-8fa2-188cd1b8916f

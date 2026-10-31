@@ -1,0 +1,9 @@
+uid: PLN-0001
+type: plan
+status: draft
+title: A small plan
+text: A small plan.
+normative: true
+attrs:
+  start: '2027-01-04'
+  origin: human

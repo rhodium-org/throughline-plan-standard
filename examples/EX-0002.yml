@@ -1,0 +1,26 @@
+uid: EX-0002
+type: example
+status: ratified
+title: A plan whose start is not a date
+text: conformance/bad-date holds a plan whose start is not a calendar date. tl check
+  reports attribute-kind for it.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0008
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:54Z'
+  fingerprint: sha256:1d5e2a4e2a94cb912b013974e89306915945058f23e45406b98ffa5e6a601027
+  content:
+    type: example
+    text: conformance/bad-date holds a plan whose start is not a calendar date. tl
+      check reports attribute-kind for it.
+    normative: false
+    derived: false
+    attrs: {}
+key: 829c6033-2071-4e3f-9d08-953748898068

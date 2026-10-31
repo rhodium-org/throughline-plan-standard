@@ -1,0 +1,25 @@
+uid: CON-0005
+type: constraint
+status: ratified
+title: Nothing that can be worked out is stored
+text: 'The standard declares no attribute for a figure that can be worked out from
+  durations, shifts and links: early and late dates, slack, the critical path, or
+  the span of a phase.'
+rationale: A stored figure drifts from the inputs it came from, and then two answers
+  disagree.
+normative: true
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:18:33Z'
+  fingerprint: sha256:dc26a088e0630d8c54a8b2b9b70961fd47f09bfae38e486e78447c31dfb64d4e
+  content:
+    type: constraint
+    text: 'The standard declares no attribute for a figure that can be worked out
+      from durations, shifts and links: early and late dates, slack, the critical
+      path, or the span of a phase.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 8df90a65-c1f3-4a99-8c02-bdf1fbf6646e

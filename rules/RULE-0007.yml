@@ -1,0 +1,31 @@
+uid: RULE-0007
+type: rule
+status: ratified
+title: A ratified plan is its baseline, and progress never moves it
+text: Ratifying a plan's items records the plan as committed. Changing a duration,
+  an estimate, a shift or a link afterwards shows as drift from that baseline. What
+  has actually happened (started, finished, reached, remaining) is not part of what
+  a signature covers, so recording it never unsettles one.
+rationale: A signature covers an item's normative attributes, and an absent normative
+  attribute still enters the fingerprint, so progress attributes are declared normative
+  = false.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:45Z'
+  fingerprint: sha256:3e4ba03972bc7ffb190366290d247794330068024b4a481f7021ed3a9c199b8d
+  content:
+    type: rule
+    text: Ratifying a plan's items records the plan as committed. Changing a duration,
+      an estimate, a shift or a link afterwards shows as drift from that baseline.
+      What has actually happened (started, finished, reached, remaining) is not part
+      of what a signature covers, so recording it never unsettles one.
+    normative: true
+    derived: false
+    attrs: {}
+key: 17c77fb3-d48b-4adc-b6b8-e415cd342f1b

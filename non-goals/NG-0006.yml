@@ -1,0 +1,27 @@
+uid: NG-0006
+type: non_goal
+status: ratified
+title: No fixed dates on activities or milestones in this edition
+text: An activity or milestone has no start-no-earlier-than, must-start-on or similar
+  date of its own. A date from outside is a deadline, which a milestone meets.
+rationale: Keeps one anchor, the plan's start, from which every date is worked out;
+  date constraints may come in a later edition.
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:39Z'
+  fingerprint: sha256:8a2a01cef11ffc54ee2a03ee52534834a7e2a6695610d959fbc03f9d361b87d3
+  content:
+    type: non_goal
+    text: An activity or milestone has no start-no-earlier-than, must-start-on or
+      similar date of its own. A date from outside is a deadline, which a milestone
+      meets.
+    normative: false
+    derived: false
+    attrs: {}
+key: 404bbcf4-9adf-4df3-8740-59a4d87af222

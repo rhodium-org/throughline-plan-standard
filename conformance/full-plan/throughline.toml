@@ -1,0 +1,9 @@
+[project]
+name = "full-plan (conformance example)"
+format_version = 4
+
+# The standard this example follows, by path from conformance/full-plan/.
+[[sources]]
+namespace = "plan"
+path = "../.."
+schema = true

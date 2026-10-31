@@ -1,0 +1,25 @@
+uid: ACT-0005
+type: activity
+status: ratified
+title: Install the network
+text: Install the network.
+normative: true
+links:
+- target: PH-0002
+  type: part_of
+attrs:
+  duration: 6.0
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:50Z'
+  fingerprint: sha256:239e1accab3ba3907239f9d88adf34e5cae4afc883a6b147f20494e3e89fc3d3
+  content:
+    type: activity
+    text: Install the network.
+    normative: true
+    derived: false
+    attrs:
+      duration: 6.0
+      optimistic: ''
+      pessimistic: ''

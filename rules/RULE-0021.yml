@@ -1,0 +1,28 @@
+uid: RULE-0021
+type: rule
+status: ratified
+title: A plan and a deadline stand on their own; everything else reaches the plan
+text: 'A plan item and a deadline may exist without a grounding link, and each must
+  be served: something is part of a plan, and a milestone meets a deadline. Every
+  phase, activity, milestone and shift reaches the plan through its links.'
+rationale: 'Declared in throughline.toml under [grounding]: root_types and delivery_roots
+  add plan and deadline.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:18:34Z'
+  fingerprint: sha256:c60dddaed716fa5c0e919fab4c51ba88b88d3613323146973ee1a5700990dd64
+  content:
+    type: rule
+    text: 'A plan item and a deadline may exist without a grounding link, and each
+      must be served: something is part of a plan, and a milestone meets a deadline.
+      Every phase, activity, milestone and shift reaches the plan through its links.'
+    normative: true
+    derived: false
+    attrs: {}
+key: ed72588f-e9b0-47af-ade7-3b44e6998daa

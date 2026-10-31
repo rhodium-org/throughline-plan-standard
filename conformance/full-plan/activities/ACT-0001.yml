@@ -1,0 +1,30 @@
+uid: ACT-0001
+type: activity
+status: ratified
+title: Survey the new office
+text: Survey the new office.
+normative: true
+links:
+- target: PH-0001
+  type: part_of
+attrs:
+  duration: 3.0
+  optimistic: 2.0
+  pessimistic: 5.0
+  who: Facilities
+  origin: human
+  started: '2027-01-04'
+  remaining: 1.5
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:45Z'
+  fingerprint: sha256:86d7feccba233c8acd56fec3205cfd1f51147021896696de322988026b521eef
+  content:
+    type: activity
+    text: Survey the new office.
+    normative: true
+    derived: false
+    attrs:
+      duration: 3.0
+      optimistic: 2.0
+      pessimistic: 5.0

@@ -1,0 +1,11 @@
+uid: PH-0001
+type: phase
+status: draft
+title: The work
+text: The work.
+normative: true
+links:
+- target: PLN-0001
+  type: part_of
+attrs:
+  origin: human

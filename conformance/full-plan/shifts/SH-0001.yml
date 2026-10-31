@@ -1,0 +1,23 @@
+uid: SH-0001
+type: shift
+status: ratified
+title: Furniture takes three weeks to arrive
+text: Furniture takes three weeks to arrive.
+normative: true
+links:
+- target: ACT-0003
+  type: follows
+attrs:
+  by: 15.0
+  origin: human
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T16:46:52Z'
+  fingerprint: sha256:46e8dae3a6b3f3ca64dab46c62142e118e16a402eee9e573bab34a57de63961b
+  content:
+    type: shift
+    text: Furniture takes three weeks to arrive.
+    normative: true
+    derived: false
+    attrs:
+      by: 15.0

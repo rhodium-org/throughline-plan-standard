@@ -1,0 +1,25 @@
+uid: NG-0002
+type: non_goal
+status: ratified
+title: No resource assignment or levelling in this edition
+text: The standard holds no resources, capacities, rates or levelling. An activity
+  may name who does it, as text that nothing is worked out from.
+rationale: Left for a later edition (operator, 30 October 2026).
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-31T12:04:38Z'
+  fingerprint: sha256:07246050fce547f684e33fa68ae5e584f9073f87c988e2a8a5de97ed34fb3711
+  content:
+    type: non_goal
+    text: The standard holds no resources, capacities, rates or levelling. An activity
+      may name who does it, as text that nothing is worked out from.
+    normative: false
+    derived: false
+    attrs: {}
+key: 52158131-0734-416f-9bb8-ea0b4c184c35
