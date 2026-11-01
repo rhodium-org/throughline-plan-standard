@@ -1,11 +1,10 @@
 uid: LT-0005
 type: link_type
-status: proposed
+status: ratified
 title: The link type meets
 text: A plan graph's meets link.
-rationale: 'RULE-0026: A milestone meets a deadline: the plan expects to reach it
-  by the deadline''s date. Meeting is grounding, so a deadline nothing meets is reported
-  unserved.'
+rationale: 'A milestone meets a deadline: the plan expects to reach it by the deadline''s
+  date. Meeting is grounding, so a deadline nothing meets is reported unserved.'
 normative: true
 links:
 - target: INT-0001
@@ -14,3 +13,13 @@ attrs:
   name: meets
   grounds: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:35Z'
+  fingerprint: sha256:3ecb83782c3dbab289cccf23a2854584d72fcbafd988cdb4b5790b91797138e1
+  content:
+    type: link_type
+    text: A plan graph's meets link.
+    normative: true
+    derived: false
+    attrs: {}

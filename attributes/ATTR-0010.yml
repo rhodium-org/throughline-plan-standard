@@ -1,11 +1,11 @@
 uid: ATTR-0010
 type: attribute
-status: proposed
+status: ratified
 title: A shift's by
 text: 'A shift''s by: required; part of what a signature covers.'
-rationale: 'RULE-0017: A shift records by: how many working days later what follows
-  it may begin; negative brings it earlier. Its value is a number. Required. Part
-  of what a signature on the item covers.'
+rationale: 'A shift records by: how many working days later what follows it may begin;
+  negative brings it earlier. Its value is a number. Required. Part of what a signature
+  on the item covers.'
 normative: true
 links:
 - target: REG-0009
@@ -17,3 +17,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:39Z'
+  fingerprint: sha256:f7541158ee1307de35986b5950be19967332ff6fcaa88ee679ccbb45e7ee797f
+  content:
+    type: attribute
+    text: 'A shift''s by: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

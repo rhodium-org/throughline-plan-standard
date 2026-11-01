@@ -1,10 +1,10 @@
 uid: LINK-0007
 type: link
-status: proposed
+status: ratified
 title: A phase is part of the plan or a phase
 text: A phase is part of the plan or a phase.
-rationale: 'RULE-0023: An activity, milestone or phase is part of the plan or of
-  a phase. The span of a phase is worked out from its parts, never recorded.'
+rationale: An activity, milestone or phase is part of the plan or of a phase. The
+  span of a phase is worked out from its parts, never recorded.
 normative: true
 links:
 - target: REG-0006
@@ -17,3 +17,13 @@ links:
   type: via
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:41Z'
+  fingerprint: sha256:3607951ec5431abbbf93d0a5ca5b9b1bd9b03dc7e63711d744cb1536e0cf7765
+  content:
+    type: link
+    text: A phase is part of the plan or a phase.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,11 +1,10 @@
 uid: ATTR-0006
 type: attribute
-status: proposed
+status: ratified
 title: An activity's started
 text: 'An activity''s started: optional; not part of what a signature covers.'
-rationale: 'RULE-0013: An activity may record started: the day the work actually
-  started. Its value is a calendar date, YYYY-MM-DD. Not part of what a signature
-  covers.'
+rationale: 'An activity may record started: the day the work actually started. Its
+  value is a calendar date, YYYY-MM-DD. Not part of what a signature covers.'
 normative: true
 links:
 - target: REG-0007
@@ -15,3 +14,13 @@ links:
 attrs:
   name: started
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:38Z'
+  fingerprint: sha256:97c83808c1a124ef34c4d01e8da975f53368afd058dec3b3656799b082ee9b14
+  content:
+    type: attribute
+    text: 'An activity''s started: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

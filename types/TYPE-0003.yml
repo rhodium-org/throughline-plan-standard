@@ -1,6 +1,6 @@
 uid: TYPE-0003
 type: type
-status: proposed
+status: ratified
 title: Text
 text: One line of text that nothing is worked out from.
 normative: true
@@ -9,3 +9,13 @@ links:
   type: has_type
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:43Z'
+  fingerprint: sha256:53ad9004bcff56607c1198f89df6630f898fc4c7dac44578644f7f4681f1732c
+  content:
+    type: type
+    text: One line of text that nothing is worked out from.
+    normative: true
+    derived: false
+    attrs: {}

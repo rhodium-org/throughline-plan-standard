@@ -1,11 +1,11 @@
 uid: REG-0010
 type: register
-status: proposed
+status: ratified
 title: A plan's deadlines live in DL
 text: A plan graph holds its deadline items in DL, folder deadlines/.
-rationale: 'RULE-0005: A deadline is a date a plan must meet, set from outside the
-  plan, and who or what sets it. A milestone meets it. A deadline may stand on its
-  own, and one that nothing meets is a finding.'
+rationale: A deadline is a date a plan must meet, set from outside the plan, and
+  who or what sets it. A milestone meets it. A deadline may stand on its own, and
+  one that nothing meets is a finding.
 normative: true
 links:
 - target: INT-0001
@@ -17,3 +17,13 @@ attrs:
   label: Deadlines
   required: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:37Z'
+  fingerprint: sha256:6dca8fb4f054938bf8bde0ea7d3642acecc327525ba0b86c7b68b9bca4bb1dc3
+  content:
+    type: register
+    text: A plan graph holds its deadline items in DL, folder deadlines/.
+    normative: true
+    derived: false
+    attrs: {}

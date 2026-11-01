@@ -1,11 +1,11 @@
 uid: LT-0004
 type: link_type
-status: proposed
+status: ratified
 title: The link type finishes
 text: A plan graph's finishes link.
-rationale: 'RULE-0025: A milestone that finishes an activity is the moment the activity
-  ends. Where it follows another item the activity ends no earlier than that item
-  finishes, so finish-to-finish orders need no link of their own.'
+rationale: A milestone that finishes an activity is the moment the activity ends.
+  Where it follows another item the activity ends no earlier than that item finishes,
+  so finish-to-finish orders need no link of their own.
 normative: true
 links:
 - target: INT-0001
@@ -14,3 +14,13 @@ attrs:
   name: finishes
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:34Z'
+  fingerprint: sha256:c9937e3983d5a06eac67ecf6834f9b5240408cb3bd902397e00cb9e98d56ba34
+  content:
+    type: link_type
+    text: A plan graph's finishes link.
+    normative: true
+    derived: false
+    attrs: {}

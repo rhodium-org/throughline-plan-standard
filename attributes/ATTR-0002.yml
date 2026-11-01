@@ -1,11 +1,11 @@
 uid: ATTR-0002
 type: attribute
-status: proposed
+status: ratified
 title: An activity's duration
 text: 'An activity''s duration: required; part of what a signature covers.'
-rationale: 'RULE-0009: An activity records duration: how many working days the activity
-  is expected to take. Its value is a number. Required. Part of what a signature
-  on the item covers.'
+rationale: 'An activity records duration: how many working days the activity is expected
+  to take. Its value is a number. Required. Part of what a signature on the item
+  covers.'
 normative: true
 links:
 - target: REG-0007
@@ -17,3 +17,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:37Z'
+  fingerprint: sha256:88ede71f2b4da2dd7184cedbc81b8c1febb6cac65ae93ce0e05822de1f411b81
+  content:
+    type: attribute
+    text: 'An activity''s duration: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

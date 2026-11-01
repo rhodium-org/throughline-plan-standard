@@ -1,6 +1,6 @@
 uid: LT-0006
 type: link_type
-status: proposed
+status: ratified
 title: The link type verifies
 text: An example verifies the rule it keeps or breaks; this standard's own link.
 normative: true
@@ -12,3 +12,13 @@ attrs:
   grounds: true
   scope: this-graph
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:35Z'
+  fingerprint: sha256:82eb07cdc78a9a898ad56273641fef0704b796653a67120b78dca5c72e8475a3
+  content:
+    type: link_type
+    text: An example verifies the rule it keeps or breaks; this standard's own link.
+    normative: true
+    derived: false
+    attrs: {}

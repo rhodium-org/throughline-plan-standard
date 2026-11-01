@@ -1,11 +1,11 @@
 uid: REG-0005
 type: register
-status: proposed
+status: ratified
 title: A plan's plans live in PLN
 text: A plan graph holds its plan items in PLN, folder plans/, exactly one.
-rationale: 'RULE-0001: A plan graph holds one plan item: the plan''s name and the
-  day its work begins. Every activity, milestone and phase is part of it, directly
-  or through a phase.'
+rationale: 'A plan graph holds one plan item: the plan''s name and the day its work
+  begins. Every activity, milestone and phase is part of it, directly or through
+  a phase.'
 normative: true
 links:
 - target: INT-0001
@@ -17,3 +17,13 @@ attrs:
   label: Plans
   exactly_one: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:36Z'
+  fingerprint: sha256:50c7a17bf37ebbdd2a048bbcd4f4f50e0cca483161f1354f834ca4e6f798d419
+  content:
+    type: register
+    text: A plan graph holds its plan items in PLN, folder plans/, exactly one.
+    normative: true
+    derived: false
+    attrs: {}

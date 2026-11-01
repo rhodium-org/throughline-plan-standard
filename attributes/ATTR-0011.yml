@@ -1,11 +1,11 @@
 uid: ATTR-0011
 type: attribute
-status: proposed
+status: ratified
 title: A deadline's date
 text: 'A deadline''s date: required; part of what a signature covers.'
-rationale: 'RULE-0018: A deadline records date: the day by which the milestones that
-  meet it must be reached. Its value is a calendar date, YYYY-MM-DD. Required. Part
-  of what a signature on the item covers.'
+rationale: 'A deadline records date: the day by which the milestones that meet it
+  must be reached. Its value is a calendar date, YYYY-MM-DD. Required. Part of what
+  a signature on the item covers.'
 normative: true
 links:
 - target: REG-0010
@@ -17,3 +17,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:39Z'
+  fingerprint: sha256:dcb0d8b637219a8151b4dab11650e420198d015fa7bf54b8a707d4a96876c808
+  content:
+    type: attribute
+    text: 'A deadline''s date: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}
