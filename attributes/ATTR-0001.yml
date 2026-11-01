@@ -1,0 +1,19 @@
+uid: ATTR-0001
+type: attribute
+status: proposed
+title: A plan's start
+text: 'A plan''s start: required; part of what a signature covers.'
+rationale: 'RULE-0008: A plan records start: the first working day of the plan, from
+  which every date in it is worked out. Its value is a calendar date, YYYY-MM-DD.
+  Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: start
+  required: true
+  normative: true
+  origin: ai

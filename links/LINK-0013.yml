@@ -1,0 +1,16 @@
+uid: LINK-0013
+type: link
+status: proposed
+title: An example verifies a rule
+text: An example verifies a rule.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0006
+  type: via
+attrs:
+  scope: this-graph
+  origin: ai

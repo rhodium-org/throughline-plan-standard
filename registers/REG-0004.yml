@@ -1,0 +1,18 @@
+uid: REG-0004
+type: register
+status: proposed
+title: The standard's examples live in EX
+text: This standard holds its own example items in EX, folder examples/. They bind
+  no plan.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: EX
+  dir: examples
+  holds: example
+  label: Examples
+  scope: this-graph
+  normative: false
+  origin: ai

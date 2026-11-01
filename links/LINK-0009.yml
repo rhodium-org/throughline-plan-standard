@@ -1,0 +1,18 @@
+uid: LINK-0009
+type: link
+status: proposed
+title: A milestone finishes an activity
+text: A milestone finishes an activity.
+rationale: 'RULE-0025: A milestone that finishes an activity is the moment the activity
+  ends. Where it follows another item the activity ends no earlier than that item
+  finishes, so finish-to-finish orders need no link of their own.'
+normative: true
+links:
+- target: REG-0008
+  type: from
+- target: REG-0007
+  type: to
+- target: LT-0004
+  type: via
+attrs:
+  origin: ai

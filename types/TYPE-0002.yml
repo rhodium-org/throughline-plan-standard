@@ -1,0 +1,11 @@
+uid: TYPE-0002
+type: type
+status: proposed
+title: Calendar date
+text: A calendar date, YYYY-MM-DD.
+normative: true
+links:
+- target: meta:BASE-0006
+  type: has_type
+attrs:
+  origin: ai

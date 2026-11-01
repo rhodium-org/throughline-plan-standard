@@ -1,0 +1,18 @@
+uid: REG-0002
+type: register
+status: proposed
+title: The standard's non-goals live in NG
+text: This standard holds its own non_goal items in NG, folder non-goals/. They bind
+  no plan.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: NG
+  dir: non-goals
+  holds: non_goal
+  label: Non-goals
+  scope: this-graph
+  normative: false
+  origin: ai

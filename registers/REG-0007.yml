@@ -1,0 +1,19 @@
+uid: REG-0007
+type: register
+status: proposed
+title: A plan's activities live in ACT
+text: A plan graph holds its activity items in ACT, folder activities/.
+rationale: 'RULE-0002: An activity is work that takes time: how many working days
+  it is expected to take, what the estimate''s range is, who does it and how far
+  it has got. It is part of the plan or of a phase, and nothing is part of it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: ACT
+  dir: activities
+  holds: activity
+  label: Activities
+  required: false
+  origin: ai

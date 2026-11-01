@@ -1,0 +1,19 @@
+uid: ATTR-0002
+type: attribute
+status: proposed
+title: An activity's duration
+text: 'An activity''s duration: required; part of what a signature covers.'
+rationale: 'RULE-0009: An activity records duration: how many working days the activity
+  is expected to take. Its value is a number. Required. Part of what a signature
+  on the item covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: duration
+  required: true
+  normative: true
+  origin: ai

@@ -1,0 +1,15 @@
+uid: LT-0002
+type: link_type
+status: proposed
+title: The link type part_of
+text: A plan graph's part_of link.
+rationale: 'RULE-0023: An activity, milestone or phase is part of the plan or of
+  a phase. The span of a phase is worked out from its parts, never recorded.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: part_of
+  grounds: true
+  origin: ai

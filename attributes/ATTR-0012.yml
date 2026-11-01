@@ -1,0 +1,19 @@
+uid: ATTR-0012
+type: attribute
+status: proposed
+title: A deadline's set by
+text: 'A deadline''s set_by: required; part of what a signature covers.'
+rationale: 'RULE-0019: A deadline records set_by: who or what sets the deadline:
+  a contract, a regulator, an event. Its value is text. Required. Part of what a
+  signature on the item covers.'
+normative: true
+links:
+- target: REG-0010
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: set_by
+  required: true
+  normative: true
+  origin: ai

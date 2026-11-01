@@ -1,0 +1,17 @@
+uid: ATTR-0006
+type: attribute
+status: proposed
+title: An activity's started
+text: 'An activity''s started: optional; not part of what a signature covers.'
+rationale: 'RULE-0013: An activity may record started: the day the work actually
+  started. Its value is a calendar date, YYYY-MM-DD. Not part of what a signature
+  covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: started
+  origin: ai

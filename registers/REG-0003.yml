@@ -1,0 +1,17 @@
+uid: REG-0003
+type: register
+status: proposed
+title: The standard's rules live in RULE
+text: This standard holds its own rule items in RULE, folder rules/. They bind no
+  plan.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: RULE
+  dir: rules
+  holds: rule
+  label: Rules
+  scope: this-graph
+  origin: ai

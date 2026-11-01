@@ -1,0 +1,22 @@
+uid: LINK-0011
+type: link
+status: proposed
+title: A rule derives from the intent, a constraint, a non-goal or another rule
+text: A rule derives from the intent, a constraint, a non-goal or another rule.
+normative: true
+links:
+- target: REG-0003
+  type: from
+- target: meta:REG-0001
+  type: to
+- target: REG-0001
+  type: to
+- target: REG-0002
+  type: to
+- target: REG-0003
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  scope: this-graph
+  origin: ai

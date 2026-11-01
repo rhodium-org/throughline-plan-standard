@@ -1,0 +1,17 @@
+uid: ATTR-0008
+type: attribute
+status: proposed
+title: An activity's remaining
+text: 'An activity''s remaining: optional; not part of what a signature covers.'
+rationale: 'RULE-0015: An activity may record remaining: how many working days of
+  the work are left, as last judged. Its value is a number. Not part of what a signature
+  covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: remaining
+  origin: ai

@@ -1,0 +1,20 @@
+uid: REG-0006
+type: register
+status: proposed
+title: A plan's phases live in PH
+text: A plan graph holds its phase items in PH, folder phases/.
+rationale: 'RULE-0031: A phase groups activities, milestones and smaller phases under
+  one name. It has no duration of its own: its span runs from the start of its first
+  part to the finish of its last, and is worked out, never recorded. It is part of
+  the plan or of a larger phase.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: PH
+  dir: phases
+  holds: phase
+  label: Phases
+  required: false
+  origin: ai

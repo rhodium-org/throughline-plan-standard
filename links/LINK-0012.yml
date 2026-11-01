@@ -1,0 +1,18 @@
+uid: LINK-0012
+type: link
+status: proposed
+title: A non-goal derives from the intent or a constraint
+text: A non-goal derives from the intent or a constraint.
+normative: true
+links:
+- target: REG-0002
+  type: from
+- target: meta:REG-0001
+  type: to
+- target: REG-0001
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  scope: this-graph
+  origin: ai

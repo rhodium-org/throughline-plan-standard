@@ -1,0 +1,14 @@
+uid: TYPE-0001
+type: type
+status: proposed
+title: Working days
+text: A number of working days, which may be a fraction.
+rationale: 'RULE-0006: Every duration, estimate, shift and remaining figure in a
+  plan is a number of working days, which may be a fraction. A working day is Monday
+  to Friday; this edition has no holidays.'
+normative: true
+links:
+- target: meta:BASE-0004
+  type: has_type
+attrs:
+  origin: ai

@@ -1,0 +1,17 @@
+uid: REG-0001
+type: register
+status: proposed
+title: The standard's constraints live in CON
+text: This standard holds its own constraint items in CON, folder constraints/. They
+  bind no plan.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: CON
+  dir: constraints
+  holds: constraint
+  label: Constraints
+  scope: this-graph
+  origin: ai

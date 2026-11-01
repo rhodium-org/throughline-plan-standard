@@ -1,0 +1,19 @@
+uid: LINK-0005
+type: link
+status: proposed
+title: An activity is part of the plan or a phase
+text: An activity is part of the plan or a phase.
+rationale: 'RULE-0023: An activity, milestone or phase is part of the plan or of
+  a phase. The span of a phase is worked out from its parts, never recorded.'
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: REG-0005
+  type: to
+- target: REG-0006
+  type: to
+- target: LT-0002
+  type: via
+attrs:
+  origin: ai

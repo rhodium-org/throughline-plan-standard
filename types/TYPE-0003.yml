@@ -1,0 +1,11 @@
+uid: TYPE-0003
+type: type
+status: proposed
+title: Text
+text: One line of text that nothing is worked out from.
+normative: true
+links:
+- target: meta:BASE-0001
+  type: has_type
+attrs:
+  origin: ai

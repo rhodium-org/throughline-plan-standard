@@ -1,0 +1,19 @@
+uid: REG-0009
+type: register
+status: proposed
+title: A plan's shifts live in SH
+text: A plan graph holds its shift items in SH, folder shifts/.
+rationale: 'RULE-0004: A shift moves what follows it later or earlier by a number
+  of working days. Placed between two items in a chain it is a lag when positive
+  and a lead when negative.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SH
+  dir: shifts
+  holds: shift
+  label: Shifts
+  required: false
+  origin: ai

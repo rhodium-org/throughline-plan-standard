@@ -1,0 +1,18 @@
+uid: LINK-0010
+type: link
+status: proposed
+title: A milestone meets a deadline
+text: A milestone meets a deadline.
+rationale: 'RULE-0026: A milestone meets a deadline: the plan expects to reach it
+  by the deadline''s date. Meeting is grounding, so a deadline nothing meets is reported
+  unserved.'
+normative: true
+links:
+- target: REG-0008
+  type: from
+- target: REG-0010
+  type: to
+- target: LT-0005
+  type: via
+attrs:
+  origin: ai

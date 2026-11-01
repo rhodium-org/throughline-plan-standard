@@ -1,0 +1,17 @@
+uid: ATTR-0007
+type: attribute
+status: proposed
+title: An activity's finished
+text: 'An activity''s finished: optional; not part of what a signature covers.'
+rationale: 'RULE-0014: An activity may record finished: the day the work actually
+  finished. Its value is a calendar date, YYYY-MM-DD. Not part of what a signature
+  covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: finished
+  origin: ai

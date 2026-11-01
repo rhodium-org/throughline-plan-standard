@@ -1,0 +1,19 @@
+uid: ATTR-0010
+type: attribute
+status: proposed
+title: A shift's by
+text: 'A shift''s by: required; part of what a signature covers.'
+rationale: 'RULE-0017: A shift records by: how many working days later what follows
+  it may begin; negative brings it earlier. Its value is a number. Required. Part
+  of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0009
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: by
+  required: true
+  normative: true
+  origin: ai

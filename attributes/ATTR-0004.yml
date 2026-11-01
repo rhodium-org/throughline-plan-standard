@@ -1,0 +1,17 @@
+uid: ATTR-0004
+type: attribute
+status: proposed
+title: An activity's pessimistic
+text: 'An activity''s pessimistic: optional; part of what a signature covers.'
+rationale: 'RULE-0011: An activity may record pessimistic: the most working days
+  it could take. Its value is a number. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: pessimistic
+  normative: true
+  origin: ai

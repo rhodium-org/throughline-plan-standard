@@ -1,0 +1,19 @@
+uid: LT-0001
+type: link_type
+status: proposed
+title: The link type follows
+text: A plan graph's follows link.
+rationale: 'RULE-0022: An activity, milestone, phase or shift follows another activity,
+  milestone, phase or shift: it may begin only once the one it follows has finished.
+  Following a phase means following its last part to finish; a phase that follows
+  an item has none of its parts begin before that item finishes. A plan''s order
+  is made of this link alone. Following is grounding, so a circular order fails the
+  check, and a change to an item marks what follows it suspect.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: follows
+  grounds: true
+  origin: ai

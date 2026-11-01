@@ -1,0 +1,19 @@
+uid: ATTR-0011
+type: attribute
+status: proposed
+title: A deadline's date
+text: 'A deadline''s date: required; part of what a signature covers.'
+rationale: 'RULE-0018: A deadline records date: the day by which the milestones that
+  meet it must be reached. Its value is a calendar date, YYYY-MM-DD. Required. Part
+  of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0010
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: date
+  required: true
+  normative: true
+  origin: ai

@@ -1,0 +1,17 @@
+uid: LT-0003
+type: link_type
+status: proposed
+title: The link type starts
+text: A plan graph's starts link.
+rationale: 'RULE-0024: A milestone that starts an activity is the moment the activity
+  begins. An item that follows it begins no earlier than the activity does, and where
+  it follows another item the activity begins no earlier than that item finishes,
+  so start-to-start and start-to-finish orders need no link of their own.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: starts
+  grounds: false
+  origin: ai
