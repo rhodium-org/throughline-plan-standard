@@ -1,0 +1,21 @@
+uid: TYPE-0002
+type: type
+status: ratified
+title: Calendar date
+text: A calendar date, YYYY-MM-DD.
+normative: true
+links:
+- target: meta:BASE-0006
+  type: has_type
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:43Z'
+  fingerprint: sha256:18efe73337889d7da0b3e40e777b205102b4aca3458d432cb2d3a5c3b9fed2a7
+  content:
+    type: type
+    text: A calendar date, YYYY-MM-DD.
+    normative: true
+    derived: false
+    attrs: {}

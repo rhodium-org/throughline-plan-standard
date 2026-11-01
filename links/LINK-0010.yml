@@ -1,0 +1,27 @@
+uid: LINK-0010
+type: link
+status: ratified
+title: A milestone meets a deadline
+text: A milestone meets a deadline.
+rationale: 'A milestone meets a deadline: the plan expects to reach it by the deadline''s
+  date. Meeting is grounding, so a deadline nothing meets is reported unserved.'
+normative: true
+links:
+- target: REG-0008
+  type: from
+- target: REG-0010
+  type: to
+- target: LT-0005
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:42Z'
+  fingerprint: sha256:94e31e47b50d0bf5e4e1f85a66e57089f8aee2361c9c4d242420b413749ab28e
+  content:
+    type: link
+    text: A milestone meets a deadline.
+    normative: true
+    derived: false
+    attrs: {}

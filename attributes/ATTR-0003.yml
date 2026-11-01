@@ -1,0 +1,27 @@
+uid: ATTR-0003
+type: attribute
+status: ratified
+title: An activity's optimistic
+text: 'An activity''s optimistic: optional; part of what a signature covers.'
+rationale: 'An activity may record optimistic: the fewest working days it could take.
+  Its value is a number. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: optimistic
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:38Z'
+  fingerprint: sha256:8b8e57fbdaef662a501181ce4063688165a2b1e5688d1912c8f77cab0b159a1e
+  content:
+    type: attribute
+    text: 'An activity''s optimistic: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

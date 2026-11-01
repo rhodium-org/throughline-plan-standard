@@ -1,0 +1,27 @@
+uid: ATTR-0004
+type: attribute
+status: ratified
+title: An activity's pessimistic
+text: 'An activity''s pessimistic: optional; part of what a signature covers.'
+rationale: 'An activity may record pessimistic: the most working days it could take.
+  Its value is a number. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: pessimistic
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:38Z'
+  fingerprint: sha256:3c00b7088e870627ef163aa8c967899306ab9fec81512b65eed585da9d37fc51
+  content:
+    type: attribute
+    text: 'An activity''s pessimistic: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

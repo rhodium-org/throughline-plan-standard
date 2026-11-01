@@ -1,0 +1,26 @@
+uid: LINK-0013
+type: link
+status: ratified
+title: An example verifies a rule
+text: An example verifies a rule.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0006
+  type: via
+attrs:
+  scope: this-graph
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:42Z'
+  fingerprint: sha256:023c8470b1166b14062350f9737b2a460be5224480602ec04e965925eb0158a9
+  content:
+    type: link
+    text: An example verifies a rule.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,37 @@
+uid: LINK-0003
+type: link
+status: ratified
+title: A phase follows activities, milestones, phases and shifts
+text: A phase follows activities, milestones, phases and shifts.
+rationale: 'An activity, milestone, phase or shift follows another activity, milestone,
+  phase or shift: it may begin only once the one it follows has finished. Following
+  a phase means following its last part to finish; a phase that follows an item has
+  none of its parts begin before that item finishes. A plan''s order is made of this
+  link alone. Following is grounding, so a circular order fails the check, and a
+  change to an item marks what follows it suspect.'
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0007
+  type: to
+- target: REG-0008
+  type: to
+- target: REG-0006
+  type: to
+- target: REG-0009
+  type: to
+- target: LT-0001
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:40Z'
+  fingerprint: sha256:2dfb7e56da63faa5b50615b25f74637f123d54fce962e32ca58dd8f2fad1bff5
+  content:
+    type: link
+    text: A phase follows activities, milestones, phases and shifts.
+    normative: true
+    derived: false
+    attrs: {}

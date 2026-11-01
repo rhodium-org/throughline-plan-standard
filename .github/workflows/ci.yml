@@ -11,9 +11,9 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      # 4.4.0 checks declared attribute kinds (throughline SR-0282) and passes
+      # 4.6.1 reads the declarations from items (throughline SR-0285) and passes
       # coverage rules on to followers (SR-0275), which this standard relies on.
-      - run: pip install "throughline>=4.4.0"
+      - run: pip install "throughline>=4.6.1"
       - name: The standard's graph is sound
         run: tl check
       - name: Every conformance example passes or fails as its EX item says

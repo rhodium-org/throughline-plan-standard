@@ -1,0 +1,29 @@
+uid: REG-0008
+type: register
+status: ratified
+title: A plan's milestones live in MS
+text: A plan graph holds its milestone items in MS, folder milestones/.
+rationale: 'A milestone is a moment in the plan that takes no time: a point reached,
+  or the start or finish of an activity named so that other items can follow it.
+  It is part of the plan or of a phase.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: MS
+  dir: milestones
+  holds: milestone
+  label: Milestones
+  required: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:36Z'
+  fingerprint: sha256:2e192b7cf0636dc37926238d734eecb877570de87f70bbaaeb791b2325cc41b9
+  content:
+    type: register
+    text: A plan graph holds its milestone items in MS, folder milestones/.
+    normative: true
+    derived: false
+    attrs: {}

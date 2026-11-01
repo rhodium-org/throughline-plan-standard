@@ -1,0 +1,29 @@
+uid: LINK-0005
+type: link
+status: ratified
+title: An activity is part of the plan or a phase
+text: An activity is part of the plan or a phase.
+rationale: An activity, milestone or phase is part of the plan or of a phase. The
+  span of a phase is worked out from its parts, never recorded.
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: REG-0005
+  type: to
+- target: REG-0006
+  type: to
+- target: LT-0002
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:41Z'
+  fingerprint: sha256:ff11c10326737b8d6da6b673f2873ec02fb1426f363259106c22376b9c539cd8
+  content:
+    type: link
+    text: An activity is part of the plan or a phase.
+    normative: true
+    derived: false
+    attrs: {}

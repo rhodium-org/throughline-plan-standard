@@ -1,0 +1,28 @@
+uid: REG-0003
+type: register
+status: ratified
+title: The standard's rules live in RULE
+text: This standard holds its own rule items in RULE, folder rules/. They bind no
+  plan.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: RULE
+  dir: rules
+  holds: rule
+  label: Rules
+  scope: this-graph
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:35Z'
+  fingerprint: sha256:e27bbda96713cd1cbbfea7d8d7ead94e1d3b6645586e8d892a91e62be22389b8
+  content:
+    type: register
+    text: This standard holds its own rule items in RULE, folder rules/. They bind
+      no plan.
+    normative: true
+    derived: false
+    attrs: {}

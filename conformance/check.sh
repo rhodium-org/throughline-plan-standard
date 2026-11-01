@@ -41,6 +41,6 @@ expect_fail no-duration     EX-0003 "required attribute 'duration' missing"
 expect_fail circular        EX-0004 "circular justification"
 expect_fail loose-shift     EX-0005 "needs incoming 'follows' link"
 expect_fail unmet-deadline  EX-0006 "deadline has nothing deriving from"
-expect_fail wrong-link      EX-0007 "'starts' link must point to a ['activity'] item, not deadline"
-expect_fail nested-activity EX-0008 "'part_of' link must point to a ['phase', 'plan'] item, not activity"
+expect_fail wrong-link      EX-0007 "link starts -> DL-0001 (MS to DL) is declared by no link declaration"
+expect_fail nested-activity EX-0008 "link part_of -> ACT-0001 (ACT to ACT) is declared by no link declaration"
 exit $fail

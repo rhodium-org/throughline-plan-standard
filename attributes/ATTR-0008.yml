@@ -1,0 +1,26 @@
+uid: ATTR-0008
+type: attribute
+status: ratified
+title: An activity's remaining
+text: 'An activity''s remaining: optional; not part of what a signature covers.'
+rationale: 'An activity may record remaining: how many working days of the work are
+  left, as last judged. Its value is a number. Not part of what a signature covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: remaining
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:39Z'
+  fingerprint: sha256:5619f4abed8000950c8547e88aa5067b0471d5d527551bd71a90f7666078205a
+  content:
+    type: attribute
+    text: 'An activity''s remaining: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,26 @@
+uid: ATTR-0007
+type: attribute
+status: ratified
+title: An activity's finished
+text: 'An activity''s finished: optional; not part of what a signature covers.'
+rationale: 'An activity may record finished: the day the work actually finished.
+  Its value is a calendar date, YYYY-MM-DD. Not part of what a signature covers.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: finished
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:38Z'
+  fingerprint: sha256:401a9171826c7c91f4063ce8fd4f30ccae4622d65e491cbf6f4e327acba9d207
+  content:
+    type: attribute
+    text: 'An activity''s finished: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

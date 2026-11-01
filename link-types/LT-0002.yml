@@ -1,0 +1,25 @@
+uid: LT-0002
+type: link_type
+status: ratified
+title: The link type part_of
+text: A plan graph's part_of link.
+rationale: An activity, milestone or phase is part of the plan or of a phase. The
+  span of a phase is worked out from its parts, never recorded.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: part_of
+  grounds: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:34Z'
+  fingerprint: sha256:ebf47d88a14fce3ace506d3e83d02dba31480f82d2f421f0355daaf73db8e91d
+  content:
+    type: link_type
+    text: A plan graph's part_of link.
+    normative: true
+    derived: false
+    attrs: {}

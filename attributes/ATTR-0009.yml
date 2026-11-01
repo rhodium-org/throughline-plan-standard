@@ -1,0 +1,26 @@
+uid: ATTR-0009
+type: attribute
+status: ratified
+title: A milestone's reached
+text: 'A milestone''s reached: optional; not part of what a signature covers.'
+rationale: 'A milestone may record reached: the day the milestone was actually reached.
+  Its value is a calendar date, YYYY-MM-DD. Not part of what a signature covers.'
+normative: true
+links:
+- target: REG-0008
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: reached
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:39Z'
+  fingerprint: sha256:55370faab84a258903b7b1aea8b701a1941481e7540df5daee92ff50c58f0c69
+  content:
+    type: attribute
+    text: 'A milestone''s reached: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

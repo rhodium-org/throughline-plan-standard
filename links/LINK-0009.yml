@@ -1,0 +1,28 @@
+uid: LINK-0009
+type: link
+status: ratified
+title: A milestone finishes an activity
+text: A milestone finishes an activity.
+rationale: A milestone that finishes an activity is the moment the activity ends.
+  Where it follows another item the activity ends no earlier than that item finishes,
+  so finish-to-finish orders need no link of their own.
+normative: true
+links:
+- target: REG-0008
+  type: from
+- target: REG-0007
+  type: to
+- target: LT-0004
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:42Z'
+  fingerprint: sha256:dcd29dfa022da58796c1629c19937f91075d330d2c3772d63d82efa2edfb51e2
+  content:
+    type: link
+    text: A milestone finishes an activity.
+    normative: true
+    derived: false
+    attrs: {}

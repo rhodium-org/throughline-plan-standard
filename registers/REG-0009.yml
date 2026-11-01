@@ -1,0 +1,29 @@
+uid: REG-0009
+type: register
+status: ratified
+title: A plan's shifts live in SH
+text: A plan graph holds its shift items in SH, folder shifts/.
+rationale: A shift moves what follows it later or earlier by a number of working
+  days. Placed between two items in a chain it is a lag when positive and a lead
+  when negative.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SH
+  dir: shifts
+  holds: shift
+  label: Shifts
+  required: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:37Z'
+  fingerprint: sha256:846370d3f75fe1724bfc8c000937158c8ae949d0ba6dbf0364ba36ee845fc09c
+  content:
+    type: register
+    text: A plan graph holds its shift items in SH, folder shifts/.
+    normative: true
+    derived: false
+    attrs: {}

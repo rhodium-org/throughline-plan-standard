@@ -1,0 +1,29 @@
+uid: LINK-0006
+type: link
+status: ratified
+title: A milestone is part of the plan or a phase
+text: A milestone is part of the plan or a phase.
+rationale: An activity, milestone or phase is part of the plan or of a phase. The
+  span of a phase is worked out from its parts, never recorded.
+normative: true
+links:
+- target: REG-0008
+  type: from
+- target: REG-0005
+  type: to
+- target: REG-0006
+  type: to
+- target: LT-0002
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:41Z'
+  fingerprint: sha256:c11a5f839395fc6822ca137ac0047f41be88c47744db1281c249f56107bfe719
+  content:
+    type: link
+    text: A milestone is part of the plan or a phase.
+    normative: true
+    derived: false
+    attrs: {}

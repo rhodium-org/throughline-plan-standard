@@ -50,25 +50,39 @@ plan graph.
 [[sources]]
 namespace = "plan"
 url = "https://github.com/rhodium-org/throughline-plan-standard"
-ref = "v1.0.0"
+ref = "v2.0.0"
 schema = true
 ```
 
-The plan graph is then checked by this standard's item types, attributes, links,
-statuses, transitions, grounding and coverage rules, plus its own additions. It may
-add, but never redefine anything declared here. This needs throughline 4.4.0 or
-later. Everything in this graph's `throughline.toml` is inherited, including the
-types the standard uses for its own items, which are inert in a plan.
+The plan graph is then checked against this standard's declarations: the registers,
+attributes, links and link types it declares as items, plus the statuses,
+transitions, grounding and coverage rules in its `throughline.toml`. Anything a plan
+holds that no declaration names is an error. A plan may declare its own additions
+(`scope = "this-graph"`), but never redefine one declared here. This needs throughline
+4.6.1 or later, and `tl init --from-schema` creates every register declared here.
 
 ## What is in this graph
 
 | Register | Holds |
 |---|---|
 | `vision/` (INT) | why the standard exists |
+| `registers/` (REG) | the registers a plan holds (PLN, exactly one; PH, ACT, MS, SH, DL), and this graph's own |
+| `types/` (TYPE) | working days, calendar date, text |
+| `attributes/` (ATTR) | each register's attributes, required or not, signed or not |
+| `links/` (LINK), `link-types/` (LT) | follows, part_of, starts, finishes, meets: which registers each joins |
 | `constraints/` (CON) | obligations on the standard itself |
-| `rules/` (RULE) | what a conforming plan must do or may hold; every declaration in `throughline.toml` names its rule |
+| `rules/` (RULE) | the prose each declaration takes as its rationale |
 | `examples/` (EX) | the example plan graphs in `conformance/`, and the rules each verifies |
 | `non-goals/` (NG) | what the standard leaves out on purpose |
+
+The standard follows the throughline meta-standard
+([throughline-standard-standard](https://github.com/rhodium-org/throughline-standard-standard)),
+which fixes what a declaration is.
+
+The prose registers (CON, RULE, EX, NG) are on their way out: a standard holds only
+declarations. 24 rules already live on as the rationale of a declaration; the other
+7 (RULE-0007, -0020, -0021, -0027, -0028, -0029, -0030) are to become declarations or
+the rationale of the configuration they explain, and then the four registers go.
 
 ## Editions
 

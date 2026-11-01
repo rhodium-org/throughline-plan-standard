@@ -1,0 +1,28 @@
+uid: REG-0001
+type: register
+status: ratified
+title: The standard's constraints live in CON
+text: This standard holds its own constraint items in CON, folder constraints/. They
+  bind no plan.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: CON
+  dir: constraints
+  holds: constraint
+  label: Constraints
+  scope: this-graph
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T17:57:35Z'
+  fingerprint: sha256:8780db71894adb6d32854478d405a34c2abefed26dbaeb522efb31825b3f907e
+  content:
+    type: register
+    text: This standard holds its own constraint items in CON, folder constraints/.
+      They bind no plan.
+    normative: true
+    derived: false
+    attrs: {}
