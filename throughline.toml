@@ -23,7 +23,7 @@ ai_origins = ["ai", "hybrid"]
 [[sources]]
 namespace = "meta"
 url = "https://github.com/rhodium-org/throughline-standard-standard"
-ref = "meta-standard-v1"
+ref = "v1.0.0"
 schema = true
 
 # The registers, attributes, links and link types a plan graph holds are declared
