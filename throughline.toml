@@ -10,13 +10,11 @@ suggested_namespace = "plan"
 [grounding]
 # RULE-0021
 # RULE-0021
-root_types = ["intent", "business_need", "risk", "constraint", "assumption", "non_goal",
+root_types = ["business_need", "risk", "constraint", "assumption", "non_goal",
               "plan", "deadline"]
 # RULE-0021
 # RULE-0021
-delivery_roots = ["intent", "business_need", "risk", "constraint", "plan",
-                  "deadline"]
-ai_origins = ["ai", "hybrid"]
+delivery_roots = ["business_need", "risk", "constraint", "plan", "deadline"]
 
 # The meta-standard: the six kinds of declaration this standard is written in,
 # and the base types its declarations build on (throughline SR-0285).
@@ -30,28 +28,10 @@ schema = true
 # as items: registers/, types/, attributes/, links/ and link-types/. Each takes the
 # ratified rule that justifies it as its rationale.
 
-[types.intent]
-normative = false
-
 [status]
 # draft = actively moving toward approval; deferred = acknowledged and grounded
 # but deliberately parked (a backlog wish-list item, not on the active front).
-values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
-          "verified", "suspect", "rejected", "deleted"]
-
-# Semantic status roles (SR-0131): which declared status plays each role the
-# tool's operations act on — `tl new` births at 'initial', `tl ratify` writes
-# 'ratified', `tl invalidate` writes 'invalidated' and reads 'invalidated' +
-# 'tombstone' as dead, `tl delete` writes 'tombstone'. Operations resolve status
-# through these roles, never a literal, so a project renames a status freely by
-# editing here. Delete this table only if you drive every status move by hand.
-[status.roles]
-initial = "draft"
-proposed = "proposed"
-ratified = "ratified"
-invalidated = "rejected"
-suspect = "suspect"
-tombstone = "deleted"
+values = ["deferred", "approved", "implemented", "verified"]
 
 # Allowed status moves (SR-0083). `tl check` compares each item against its
 # status in the previous commit and flags any change these do not permit. Delete
